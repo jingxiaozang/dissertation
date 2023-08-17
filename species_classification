@@ -1,0 +1,57 @@
+import re
+import requests
+
+# Extract species names from the TAXLABELS section of the NEX file
+with open("C:\\app\\iqtree-1.6.12-Windows\\projects\\project44\\project44.NEX", "r", encoding="utf-8") as file:
+    content = file.read()
+    taxa_section = re.search(r"TAXLABELS(.*?);", content, re.DOTALL).group(1)
+    species_names = re.findall(r"'(.*?)'", taxa_section)
+
+# Define a function to get the classification of a species
+def get_species_classification(species_name):
+    # Make a request to the GBIF API
+    response = requests.get(f'https://api.gbif.org/v1/species/match?name={species_name}')
+
+    # Check that the request was successful
+    if response.status_code == 200:
+        # Parse the response JSON into a Python dictionary
+        data = response.json()
+
+        # Return the classification
+        return data
+    else:
+        # If the request was not successful, return None
+        return None
+
+# Create a dictionary to store the classifications for each species
+classifications = {}
+
+# Use the function for each species' name
+for species_name in species_names:
+    classifications[species_name] = get_species_classification(species_name)
+
+# Find the taxonomic breadth
+for level in ['species', 'subspecies', 'subgenus', 'genus', 'subtribe', 'tribe', 'subfamily', 'family', 'suborder', 'order', 'superorder', 'subclass', 'class', 'infraclass', 'subclass', 'superclass', 'subphylum', 'phylum', 'infraphylum', 'superphylum', 'kingdom', 'domain']:
+    if all(level in classification and classification[level] == classifications[species_names[0]][level] for classification in classifications.values()):
+        taxonomic_breadth = level
+        break
+
+# Print the taxonomic breadth
+print(f"Taxonomic breadth of the dataset: {taxonomic_breadth}")
+
+# Print the biological classification
+print(f"Biological classification: {classifications[species_names[0]][taxonomic_breadth]}")
+
+# Create a list to store the highest taxonomic level of each species
+highest_taxonomic_levels = []
+
+# For each species, find the highest taxonomic level
+for species_name, classification in classifications.items():
+    for level in ['species', 'subspecies', 'subgenus', 'genus', 'subtribe', 'tribe', 'subfamily', 'family', 'suborder', 'order', 'superorder', 'subclass', 'class', 'subphylum', 'phylum', 'kingdom', 'domain']:
+        if level in classification:
+            highest_taxonomic_levels.append(level)
+            break
+
+# Print the highest taxonomic level of all species
+print(f"The highest taxonomic level(min) of all species in the dataset: {min(highest_taxonomic_levels, key=lambda level: ['species', 'subspecies', 'subgenus', 'genus', 'subtribe', 'tribe', 'subfamily', 'family', 'suborder', 'order', 'superorder', 'subclass', 'class', 'subphylum', 'phylum', 'kingdom', 'domain'].index(level))}")
+print(f"The highest taxonomic level(max) of all species in the dataset: {max(highest_taxonomic_levels, key=lambda level: ['species', 'subspecies', 'subgenus', 'genus', 'subtribe', 'tribe', 'subfamily', 'family', 'suborder', 'order', 'superorder', 'subclass', 'class', 'subphylum', 'phylum', 'kingdom', 'domain'].index(level))}")
