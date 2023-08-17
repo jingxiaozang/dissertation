@@ -28,7 +28,7 @@ for species_name in species_names:
     classifications[species_name] = get_species_classification(species_name)
 
 # Find the taxonomic breadth
-for level in ['species', 'subspecies', 'subgenus', 'genus', 'subtribe', 'tribe', 'subfamily', 'family', 'suborder', 'order', 'superorder', 'subclass', 'class', 'infraclass', 'subclass', 'superclass', 'subphylum', 'phylum', 'infraphylum', 'superphylum', 'kingdom', 'domain']:
+for level in ['species', 'subspecies', 'subgenus', 'genus', 'subtribe', 'tribe', 'subfamily', 'family', 'suborder', 'order', 'superorder', 'subclass', 'class', 'infraclass','superclass', 'subphylum', 'phylum', 'infraphylum', 'superphylum', 'kingdom', 'domain']:
     if all(level in classification and classification[level] == classifications[species_names[0]][level] for classification in classifications.values()):
         taxonomic_breadth = level
         break
