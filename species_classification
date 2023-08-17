@@ -1,7 +1,7 @@
 import re
 import requests
 
-# Extract species names from the TAXLABELS section of the NEX file
+# Extract taxa names from the TAXLABELS section of the NEX file
 with open("C:\\app\\iqtree-1.6.12-Windows\\projects\\project44\\project44.NEX", "r", encoding="utf-8") as file:
     content = file.read()
     taxa_section = re.search(r"TAXLABELS(.*?);", content, re.DOTALL).group(1)
@@ -16,11 +16,8 @@ def get_species_classification(species_name):
     if response.status_code == 200:
         # Parse the response JSON into a Python dictionary
         data = response.json()
-
-        # Return the classification
         return data
     else:
-        # If the request was not successful, return None
         return None
 
 # Create a dictionary to store the classifications for each species
