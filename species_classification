@@ -2,7 +2,7 @@ import re
 import requests
 
 # Extract taxa names from the TAXLABELS section of the NEX file
-with open("C:\\app\\iqtree-1.6.12-Windows\\projects\\project44\\project44.NEX", "r", encoding="utf-8") as file:
+with open("C:\\app\\iqtree-1.6.12-Windows\\projects\\project4176\\project4716.NEX", "r", encoding="utf-8") as file:
     content = file.read()
     taxa_section = re.search(r"TAXLABELS(.*?);", content, re.DOTALL).group(1)
     species_names = re.findall(r"'(.*?)'", taxa_section)
