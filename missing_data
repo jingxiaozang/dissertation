@@ -1,0 +1,45 @@
+import math
+
+file_path = "C:/file_path"
+
+# Read the NEX file 
+with open(file_path, "r", encoding="utf-8") as f:
+    lines = f.readlines()
+
+# Find the MATRIX section
+start_line = -1
+end_line = -1
+for i, line in enumerate(lines):
+    if line.strip() == "MATRIX":
+        start_line = i + 1
+    elif start_line != -1 and line.strip() == ";":
+        end_line = i
+        break
+
+# Extract the character
+data = [line.split(maxsplit=1)[1] for line in lines[start_line:end_line]]
+
+# Calculate the number of taxa 
+total_taxa = len(data)
+
+# Calculate the distribution of missing data and total missing count
+missing_distribution = {}
+total_missing = 0
+for row in data:
+    missing_count = row.count("?")
+    total_missing += missing_count
+    if missing_count in missing_distribution:
+        missing_distribution[missing_count] += 1
+    else:
+        missing_distribution[missing_count] = 1
+
+# Calculate the probability of each state
+probabilities = {k: v / total_taxa for k, v in missing_distribution.items()}
+
+# Calculate the entropy
+entropy = -sum([p * math.log2(p) for p in probabilities.values()])
+
+# Print the entropy, the total number of taxa and total missing data
+print('Entropy of the missing data distribution:', entropy)
+print('Total number of taxa:', total_taxa)
+print('Total missing data:', total_missing)
