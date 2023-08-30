@@ -1,0 +1,14 @@
+import re
+
+file_path = r'C:\app\iqtree-1.6.12-Windows\bin\project3134.NEX'
+with open(file_path, 'r', encoding='utf-8') as file:
+    nex_content = file.read()
+
+pattern = r'\(.*?\)|\{.*?\}' 
+
+new_content = re.sub(pattern, '?', nex_content)
+
+with open(file_path, 'w', encoding='utf-8') as file:
+    file.write(new_content)
+
+print("saved。")
