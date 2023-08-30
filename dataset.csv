@@ -1,0 +1,712 @@
+﻿num_matrix,taxa,characters,total_missing_data,Missing Data Percentage,minimum distance ,time of divergence (MYA) of last common ancestor,entropy_NAs_distribution,justification of character coding,methods used,detail of description,taxonomic breadth,taxonomic level,Matrix is human readable,Matrix is machine-readable,evaluation of result reliability,notes
+matrix1,27,46,87,0.07004831,0.770612677,401-500,2.805658225,Yes,6,level3,order ,species,1,2,multiple ,project44
+matrix2,40,65,666,0.25615385,1.036931367,201-300,2.895461844,Yes,4,level5,class,genus,1,1,single,project45
+matrix3,80,368,11768,0.39972826,9.617152339,201-300,5.903055907,Yes,5,level3,class,order,1,2,multiple ,Project 46
+matrix4,80,368,17954,0.60985054,12.92296179,101-200,6.146928095,No,5,level4,class,genus,1,2,multiple ,Project 48
+matrix5,14,39,112,0.20512821,0,201-300,3.378783493,Yes,3,level3,order,genus,0,1,none,Project 84
+matrix6,29,207,1562,0.26020323,1.621753695,101-200,4.651084443,No,3,level3,class,family,0,0,multiple ,Project 104
+matrix7,71,635,15245,0.33813907,3.100201064,101-200,6.093409091,Yes,5,level3,class,family,1,0,multiple ,Project 108
+matrix8,69,408,11594,0.41183575,4.646379922,101-200,5.963596921,No,4,level1,class,genus ,1,1,multiple ,Project 157
+matrix9,21,173,1161,0.3195706,0,101-200,4.070656113,No,3,level1,class,order,0,0,multiple ,project161
+matrix10,68,228,2422,0.15621775,7.903290005,101-200,5.218059672,No,6,level3,class,genus,1,2,single,project171
+matrix11,165,125,1543,0.07481212,38.73048041,401-500,4.0504042,Yes,6,level3,class,species,1,0,multiple ,project175
+matrix12,24,119,860,0.30112045,0,Nov-50,4.168295834,No,5,level3,suborder,genus,1,0,single,project181 
+matrix13,72,207,1837,0.1232555,1.425722108,Nov-50,3.602537155,No,7,level2,suborder,family,1,0,multiple ,project194
+matrix14,83,412,12648,0.36986782,1.595835212,201-300,6.10997919,Yes,3,level5,superorder,species,1,1,multiple ,project198
+matrix15,271,76,6847,0.33244319,56.11930108,201-300,5.312439884,Yes,5,level3,suborder,species,0,0,multiple ,project199
+matrix16,40,123,1461,0.29695122,2.980341916,101-200,4.903055907,Yes,5,level3,class,genus,1,0,multiple ,project200
+matrix17,41,315,4883,0.3780875,0,201-300,5.211210541,No,5,level3,class,genus,1,0,none,project205
+matrix18,51,129,168,0.0255358,3.081899452,101-200,3.069070816,Yes ,4,level5,class,species,1,1,none,project216
+matrix19,63,28,88,0.04988662,2.817647591,301-400,1.595936996,Yes ,4,level5,class,species,0,0,multiple ,project222
+matrix20,21,245,1087,0.21127308,0,51-100,3.975418018,Yes ,4,level5,order,genus,0,0,none,project240
+matrix21,35,204,1990,0.27871148,0.483714625,51-100,4.957854446,No,6,level3,order,family,1,1,multiple ,project246
+matrix22,61,111,2746,0.40555309,1.338608502,more than 501,5.381396764,Yes ,4,level5,phylum,species,1,1,none,project262
+matrix23,63,150,2001,0.21174603,5.37370183,51-100,5.286648574,Yes ,4,level5,order,genus,0,1,none,project264
+matrix24,30,208,1631,0.26137821,2.593602548,51-100,4.548394346,Yes ,2,level1,order,family,0,0,none,project265
+matrix25,17,209,651,0.18322544,0,51-100,3.807763576,Yes ,8,level5,order,species,0,1,multiple ,project266
+matrix26,12,40,81,0.16875,0,51-100,2.688721876,Yes ,8,level3,order,family,0,0,multiple ,project277
+matrix27,17,395,1646,0.24512286,0,101-200,4.087462841,Yes ,4,level5,class,species,1,1,multiple ,project291
+matrix28,31,145,931,0.20711902,0,201-300,4.478232197,Yes ,3,level3,infraorder,genus,1,1,multiple ,project295
+matrix29,30,144,328,0.07592593,1.151014279,51-100,3.669576746,Yes ,5,level3,order,family,0,2,multiple ,project299
+matrix30,69,408,11602,0.41211992,3.08817611,101-200,5.963596921,No,4,level4,class,genus,1,1,none,project316
+matrix31,81,661,20895,0.39026167,4.420376413,101-200,6.117627781,Yes ,2,level3,class,genus,1,2,multiple ,project321
+matrix32,22,107,606,0.25743415,0,51-100,3.823067982,Yes ,4,level5,class,genus,1,1,single,project332
+matrix33,61,88,176,0.03278689,17.88292327,Nov-50,2.942642573,NA,NA,NA,family,species,NA,NA,NA,project352
+matrix34,59,27,288,0.18079096,13.69141585,Nov-50,3.318185949,NA,NA,NA,family,species,NA,NA,NA,project352
+matrix35,59,19,20,0.01784121,20.1753033,Nov-50,1.060012741,NA,NA,NA,family,species,NA,NA,NA,project352
+matrix36,22,75,387,0.23454545,0,101-200,3.970573096,Yes ,4,level5,order,suborder,1,1,multiple ,project365
+matrix37,51,216,4244,0.38525781,6.680633316,101-200,5.280268479,Yes ,3,level1,class,genus,0,0,multiple ,project367
+matrix38,17,164,520,0.18651363,0,Nov-50,3.969815782,No,2,level4,suborder,genus,1,1,none,project380
+matrix39,27,84,266,0.11728395,1.196683659,51-100,3.661932872,Yes ,2,level3,order,genus,0,0,multiple ,project383
+matrix40,10,21,15,0.07142857,0,Nov-50,1.846439345,No,2,level3,order,genus,1,1,none,project386
+matrix41,32,80,6,0.00234375,6.211215409,51-100,0.69621226,Yes ,4,level2,order,genus,0,1,multiple ,project402
+matrix42,27,77,158,0.07599808,0.770612677,301-400,3.111756836,Yes ,3,level2,class,genus,1,1,multiple ,project408
+matrix43,12,39,99,0.21153846,1.114992656,101-200,2.584962501,No,1,level4,class,genus,1,0,none,project417
+matrix44,42,189,414,0.0521542,1.059216043,more than 501,3.799606637,Yes ,4,level2,phylum,family,1,0,none,project422
+matrix45,60,253,2791,0.18386034,2.780528657,more than 501,4.100593988,Yes ,4,level5,subphylum,class,1,1,none,project423
+matrix46,36,65,10,0.0042735,1.513209798,401-500,0.803071727,NA,NA,NA,class,genus,NA,NA,NA,Project 429
+matrix47,64,141,2717,0.30108599,3.426191687,101-200,5.345714016,Yes ,5,level5,class,genus,1,1,none,project431
+matrix48,61,231,1449,0.10283159,2.819562407,301-400,6.345714016,Yes ,5,level5,order,genus,1,0,multiple ,project441
+matrix49,24,43,268,0.25968992,0,201-300,3.740601563,No,2,level4,family,genus,0,0,none,project449
+matrix50,40,14,26,0.04642857,6.177601555,Nov-50,1.490468571,Yes ,6,level2,family,species,0,1,multiple ,project450
+matrix51,60,227,3009,0.22092511,3.012943884,more than 501,5.481727679,No,5,level5,phylum,genus,1,2,single,project463
+matrix52,7,151,74,0.07000946,0,Nov-50,1.148834854,Yes,8,level2,family,genus,1,2,multiple ,project466
+matrix53,7,151,97,0.09176916,0,Nov-50,1.148834854,Yes,8,level2,family,genus,1,2,multiple ,project466
+matrix54,7,151,71,0.06717124,0,Nov-50,1.148834854,Yes,8,level2,family,genus,1,2,multiple ,project466
+matrix55,7,151,58,0.05487228,0,Nov-50,1.148834854,Yes,8,level2,family,genus,1,2,multiple ,project466
+matrix56,7,151,83,0.07852412,0,Nov-50,1.148834854,Yes,8,level2,family,genus,1,2,multiple ,project466
+matrix57,7,151,58,0.05487228,0,Nov-50,1.148834854,Yes,8,level2,family,genus,1,2,multiple ,project466
+matrix58,14,48,52,0.07738095,0,Nov-50,2.896291529,No,3,level4,suborder,species,1,1,none,project470
+matrix59,44,69,595,0.19598155,0,301-400,4.277249518,Yes,4,level5,class,species,0,1,none,project482
+matrix60,20,50,230,0.23,0,201-300,3.68418372,No,5,level4,infraorder,genus,1,1,none,project484
+matrix61,82,413,12816,0.37843265,2.885612,201-300,6.153224108,No,1,level1,class,genus,0,0,none,project485
+matrix62,46,243,1475,0.13195563,0.386330729,201-300,3.829473895,Yes,4,level4,order,suborder,1,1,single,project489
+matrix63,35,290,3685,0.36305419,0,more than 501,5.07214016,No,2,level4,phylum,genus,1,1,none,project493
+matrix64,19,66,184,0.14673046,0,201-300,3.070847094,Yes,3,level5,order,family,0,1,none,project495
+matrix65,74,408,14596,0.48343932,2.669646323,101-200,5.885129041,Yes,2,level5,class,genus,1,1,single,project496
+matrix66,30,137,643,0.15644769,0,201-300,4.506890596,Yes,7,level5,class,order,1,2,multiple ,project506
+matrix67,44,99,787,0.18067034,4.21260198,101-200,4.217859108,Yes,7,level5,class,genus,0,0,multiple ,project528
+matrix68,27,107,586,0.20283835,0,Nov-50,3.658234151,Yes,4,level5,order,species,1,1,multiple ,project529
+matrix69,20,39,59,0.07564103,0,Nov-50,2.38418372,No,4,level4,suborder,species,1,0,multiple ,project530
+matrix70,23,90,405,0.19565217,0.678269911,Nov-50,3.58401237,No,4,level4,suborder,species,1,0,multiple ,project530
+matrix71,21,674,2114,0.14935707,1.18664,101-200,4.297079328,Yes,4,level5,order,species,0,0,none,project532
+matrix72,30,58,450,0.25862069,0,401-500,4.294739663,Yes,4,level5,order,species,1,1,multiple ,project537
+matrix73,11,19,31,0.14832536,0,401-500,2.299896391,No,7,level4,class,genus,1,0,none,project538
+matrix74,22,51,93,0.0828877,0,51-100,2.366745254,No,3,level4,subclass,genus,0,0,multiple ,project539
+matrix75,55,114,1021,0.16283892,1.090486,301-400,3.681410406,Yes,7,level5,class,species,1,1,none,project540
+matrix76,33,71,578,0.24669227,0,401-500,4.294246013,No,4,level5,order,species,1,0,none,project541
+matrix77,24,43,138,0.13372093,0,401-500,3.031453646,Yes,3,level5,order,species,1,2,none,project542
+matrix78,84,395,9597,0.28924051,8.173535788,more than 501,5.846194768,No,2,level3,phylum,family,1,2,multiple ,project549
+matrix79,34,356,606,0.05006609,1.17185514,401-500,4.138502179,Yes,3,level5,class,family,1,0,multiple ,project561
+matrix80,24,86,246,0.11918605,0,101-200,3.720175521,Yes,2,level5,class,genus,0,0,multiple ,project567
+matrix81,45,81,675,0.18518519,0,401-500,4.330416152,No,6,level4,order,species,1,1,multiple ,project568
+matrix82,22,60,157,0.11893939,0.702539922,201-300,3.265583323,No,1,level4,order,genus,1,1,none,project569
+matrix83,42,125,897,0.17085714,0.537670058,51-100,4.460902769,No,1,level3,order,genus,0,0,none,project571
+matrix84,19,97,522,0.28323386,0,101-200,4.247927513,No,4,level4,order,species,1,1,none,project574
+matrix85,23,166,977,0.25589314,0.678269911,Nov-50,4.175735869,Yes,2,level5,suborder,species,1,0,multiple ,project 578
+matrix86,85,301,10277,0.40168067,5.20791473,201-300,5.982747848,Yes,4,level5,class,genus,1,1,none,project 581
+matrix87,36,80,760,0.26388889,0,401-500,4.593400349,No,5,level4,order,species,1,1,multiple ,project 586
+matrix88,69,135,186,0.01996779,0,401-500,2.959902703,Yes,4,level5,phylum,species,1,0,none,project 589
+matrix89,18,60,99,0.09166667,4.038221,51-100,2.858278308,Yes,4,level5,family,species,0,1,multiple ,project 599
+matrix90,21,60,104,0.08253968,0,51-100,3.041625614,No,2,level4,family,species,0,0,none,project 600
+matrix91,47,75,274,0.0777305,8.539279,201-300,2.625892245,Yes,6,level5,order,species,0,1,single,project 610
+matrix92,23,66,421,0.2773386,0,101-200,3.96900163,Yes,3,level5,suborder,genus,1,1,multiple ,project 611
+matrix93,17,42,22,0.03081232,0.980131729,more than 501,2.107963756,Yes,3,level5,phylum,genus,1,1,none,project 618
+matrix94,41,89,126,0.03453001,0.9811257,401-500,2.321331023,Yes,4,level5,class,species,1,1,multiple ,project 619
+matrix95,29,65,64,0.03395225,1.90853,401-500,2.188121617,Yes,8,level5,class,species,1,1,multiple ,project 622
+matrix96,37,84,104,0.03346203,2.973217694,401-500,2.265319501,Yes,5,level5,class,species,1,1,multiple ,project 623
+matrix97,34,80,88,0.03235294,2.322663623,401-500,2.209095669,Yes,5,level5,class,species,1,1,multiple ,project 624
+matrix98,106,258,4836,0.17683194,0,more than 501,4.587173769,Yes,9,level3,phylum,genus,1,2,multiple ,project 625
+matrix99,15,50,244,0.32533333,0,101-200,3.456564762,Yes,1,level5,order,genus,1,1,none,project 628
+matrix100,44,253,2305,0.20706073,0.400804526,401-500,3.559799598,Yes,3,level3,class,order,0,2,none,project 631
+matrix101,52,54,266,0.09472934,1.748370833,201-300,3.377693492,Yes,3,level3,order,genus,0,0,single,project 632
+matrix102,12,41,13,0.02642276,1.375291122,51-100,1.551098171,No,1,level4,order,genus,1,2,multiple ,project 633
+matrix103,19,20,0,0,1.560983326,51-100,0,No,2,level4,family,genus,0,1,none,project 635
+matrix104,71,115,35,0.00428659,2.27857503,201-300,0.569341551,Yes,1,level5,order,species,1,0,none,project 638
+matrix105,27,53,28,0.01956674,0,51-100,1.835896987,Yes,4,level5,family,genus,1,1,multiple ,project 640
+matrix106,31,95,24,0.00814941,0.69284997,101-200,0.612069284,Yes,4,level4,order,species,1,1,multiple ,project 641
+matrix107,11,28,7,0.02272727,0,51-100,0.439496987,Yes,5,level5,family,species,1,1,none,project 643
+matrix108,15,56,8,0.00952381,1.184843882,101-200,0.353359335,Yes,4,level5,order,species,1,1,multiple ,project 647
+matrix109,21,19,2,0.00501253,6.680963898,51-100,0.453716339,Yes,7,level5,order,species,0,1,multiple ,project 648
+matrix110,56,224,6357,0.50677615,2.548352164,201-300,5.593069208,Yes,1,level5,order,family,0,0,multiple ,project 652
+matrix111,54,99,676,0.12644968,5.004002734,Nov-50,4.063068124,Yes,7,level5,family,species,1,0,multiple ,project 657
+matrix112,117,477,31383,0.56232866,0,101-200,6.61814442,Yes,5,level5,suborder,genus,1,2,none,project 660
+matrix113,65,259,7096,0.42150282,10.47483594,101-200,5.733831082,No,3,level3,class,species,1,1,none,project 667
+matrix114,18,54,223,0.22942387,0,101-200,3.503258335,No,5,level3,class,species,1,1,none,project674
+matrix115,16,52,1,0.00120192,2.005793496,101-200,0.337290067,No,2,level3,class,order,1,1,none,project675
+matrix116,27,59,358,0.22473321,0,101-200,3.272812968,No,2,level3,class,family,0,0,none,project676
+matrix117,22,50,20,0.01818182,0,Nov-50,1.602131444,Yes,4,level5,order,genus,1,0,multiple ,project681
+matrix118,94,78,2136,0.2913257,17.32881779,101-200,4.859735263,Yes,6,level3,class,species,0,1,multiple ,project682
+matrix119,19,71,344,0.25500371,0,51-100,3.787143961,Yes,2,level5,subclass,species,1,0,none,project683
+matrix120,52,303,5543,0.35180249,6.410076406,101-200,5.431208949,No,4,level3,class,order,0,2,none,project684
+matrix121,90,272,9354,0.38210784,4.47048802,Nov-50,6.22518643,Yes,5,level5 ,suborder,species,1,0,none,project687
+matrix122,76,183,5234,0.37633017,8.387978465,more than 501,5.576617645,Yes,9,level2,phylum,species,0,0,none,project689
+matrix123,109,183,7417,0.37183536,4.982621847,more than 501,4.981852816,Yes,9,level2,phylum,species,0,0,none,project689
+matrix124,103,446,19999,0.43534764,4.717126938,101-200,6.368491911,Yes,2,level3,class,family,1,1,none,project691
+matrix125,71,408,12073,0.41677023,9.304008125,101-200,6.008902049,Yes,2,level3,class,genus,1,1,none,project692
+matrix126,46,286,2510,0.19078747,0,101-200,5.175735869,Yes,5,level5 ,class,order,1,1,multiple ,project694
+matrix127,34,35,6,0.00504202,7.542709903,51-100,0.570401499,Yes,6,level5 ,subclass,genus,1,1,none,project696
+matrix128,47,175,3169,0.38528875,0,201-300,5.240655075,Yes,3,level5 ,class,subclass,0,0,none,project699
+matrix129,9,114,73,0.0711501,0,more than 501,2.725480557,Yes,2,level5 ,phylum,genus,1,1,none,project706
+matrix130,32,333,4699,0.44097222,0.611260648,201-300,4.9375,Yes,5,level5 ,order,suborder,0,0,multiple ,project708
+matrix131,31,38,246,0.20882852,0.533903938,more than 501,3.744203568,Yes,4,level5 ,phylum,genus,0,1,none,project709
+matrix132,32,334,4645,0.43459955,0.899232986,201-300,4.875,Yes,5,level5 ,order,suborder,1,0,multiple ,project713
+matrix133,23,68,163,0.10421995,0,301-400,3.435755434,Yes,6,level5 ,class,species,1,1,none,project715
+matrix134,29,101,1120,0.38238307,0.56348482,more than 501,4.513153409,Yes,2,level5 ,phylum,order,1,1,none,project717
+matrix135,19,68,390,0.30185759,0.7880914,more than 501,3.721611724,Yes,3,level5 ,phylum,class,1,1,none,project721
+matrix136,22,72,627,0.39583333,0,301-400,4.152391278,Yes,5,level5 ,class,family,1,1,multiple ,project723
+matrix137,37,114,1179,0.27951636,0,more than 501,4.831074987,Yes,4,level5,phylum,species,1,1,none,project724
+matrix138,15,56,124,0.14761905,0,301-400,3.139572262,No,3,level4,subclass,family,1,1,none,project727
+matrix139,59,98,761,0.13161536,12.92570239,Nov-50,4.320965668,Yes,5,level3,family,species,0,0,multiple ,project728
+matrix140,27,77,250,0.12025012,3.839195389,more than 501,4.060262039,Yes,3,level5,phylum,genus,1,1,none,project730
+matrix141,37,90,566,0.16996997,2.392106843,301-400,4.239877609,Yes,3,level5 ,class,genus,0,1,multiple ,project735
+matrix142,38,261,2432,0.24521073,0.904462575,51-100,4.826874882,Yes,6,level3,subclass,genus,1,0,multiple ,project739
+matrix143,27,206,3323,0.59744696,0.596837387,101-200,4.504706484,Yes,2,level3,suborder,genus,1,1,none,project741
+matrix144,24,43,260,0.25193798,0,201-300,3.772055209,Yes,2,level5 ,class,genus,0,0,none,project743
+matrix145,77,348,15605,0.58236304,4.698361236,101-200,6.033020307,No,2,level4,suborder,genus,0,0,none,project746
+matrix146,60,138,3334,0.402657,3.591914201,more than 501,5.423231429,Yes,8,level5,phylum,genus,1,1,multiple ,project748
+matrix147,34,240,1837,0.22512255,0,101-200,4.653495562,Yes,4,level5,class,family,0,1,multiple ,project750
+matrix148,52,193,1526,0.15205261,0,301-400,4.878230343,No,3,level4,class,genus,1,0,none,project751
+matrix149,28,74,251,0.121139,3.612847746,51-100,3.155045547,Yes,6,level5 ,subclass,species,0,2,multiple ,project758
+matrix150,69,232,5767,0.36025737,13.14634479,Nov-50,5.709832065,NA,NA,NA,suborder,species,NA,NA,NA,project776
+matrix151,63,104,1964,0.2997558,0.592080572,401-500,5.0045579,Yes,4,level5 ,order,species,1,1,multiple ,project780
+matrix152,66,104,1586,0.23106061,1.063180984,401-500,4.953004923,Yes,4,level5 ,order,species,1,1,multiple ,project780
+matrix153,188,2,79,0.21010638,82.65195478,101-200,1.020056234,Yes,3,level3,order,species,0,0,none,project784
+matrix154,108,210,3782,0.16675485,23.69537976,more than 501,5.630598817,Yes,5,level5 ,class,species,1,0,none,project790
+matrix155,51,253,3386,0.26241959,1.373149568,401-500,3.99499642,Yes,5,level3,class,order,0,2,multiple ,project793
+matrix156,47,213,536,0.0535411,3.6764508,51-100,4.282792309,Yes,4,level5 ,suborder,species,1,1,none,project794
+matrix157,73,282,5426,0.26357719,4.177916163,Nov-50,5.576743908,No,1,level4,order,species,1,1,none,project798
+matrix158,26,73,785,0.41359326,0.61516731,more than 501,4.39274741,Yes,4,level3,order,genus,1,1,multiple ,project802
+matrix159,173,589,34606,0.33961746,3.267429591,more than 501,6.506059101,No,3,level2,phylum,family,1,2,none,project804
+matrix160,13,16,7,0.03365385,0,more than 501,1.148834854,Yes,3,level3,phylum,species,1,0,multiple ,project805
+matrix161,58,82,680,0.14297729,2.403940655,more than 501,3.716822929,Yes,5,level5 ,phylum,family,1,0,multiple ,project806
+matrix162,41,90,147,0.0398374,1.532486183,Nov-50,2.07832525,Yes,6,level5 ,order,species,0,1,none,project809
+matrix163,16,40,59,0.0921875,0.899656572,more than 501,2.52439747,Yes,6,level3,phylum,species,1,1,none,project810
+matrix164,64,97,1176,0.18943299,13.50755181,more than 501,4.270154149,NA,NA,NA,kingdom,phylum,NA,NA,NA,project811
+matrix165,23,35,39,0.0484472,1.422182214,401-500,2.296636697,Yes,3,level5 ,phylum,family,1,1,none,project816
+matrix166,33,131,967,0.22368725,0,201-300,4.620151695,No,2,level4,order,suborder,1,1,multiple ,project825
+matrix167,33,218,4497,0.62510425,1.539749471,101-200,4.923181998,Yes,4,level5 ,suborder,genus,1,0,multiple ,project826
+matrix168,21,49,160,0.15549077,0,51-100,2.810446901,Yes,3,level5 ,class,species,1,2,single,project831
+matrix169,38,126,567,0.11842105,1.038729764,301-400,3.618555225,Yes,7,level5 ,order,species,1,0,multiple ,project847
+matrix170,22,47,178,0.172147,0.764260021,51-100,3.077323802,Yes,2,level5 ,order,genus,1,1,none,project849
+matrix171,33,201,2747,0.41414141,1.508742939,201-300,4.983788059,No,2,level3,class,species,1,2,none,project854
+matrix172,30,115,388,0.11246377,0,101-200,4.006238929,Yes,7,level2,class,species,0,1,none,project858
+matrix173,56,58,759,0.23368227,3.006938796,101-200,3.777913128,Yes,13,level2,class,species,0,1,none,project858
+matrix174,141,32,85,0.01883865,1.422182,51-100,1.508971601,Yes,4,level5 ,family,species,0,0,none,project861
+matrix175,168,367,5963,0.09671403,29.27868438,51-100,5.550322168,Yes,3,level3,order,species,1,0,none,project863
+matrix176,47,175,3182,0.3868693,0,201-300,5.240655075,Yes,3,level5 ,class,order,1,1,none,project869
+matrix177,37,74,658,0.2403214,0.962180005,101-200,4.442844501,Yes,4,level5 ,suborder,family,1,1,none,project870
+matrix178,28,111,735,0.23648649,0,201-300,4.155045547,Yes,2,level5 ,class,family,1,1,none,project871
+matrix179,44,137,2174,0.3606503,5.135480568,101-200,5.061482187,Yes,4,level5 ,class,species,1,1,multiple ,project876
+matrix180,12,81,105,0.10802469,0,Nov-50,2.584962501,Yes,5,level5 ,family,species,0,0,multiple ,project898
+matrix181,21,40,56,0.06666667,0,301-400,2.117344208,NA,NA,NA,class,family,NA,NA,NA,project902
+matrix182,14,27,19,0.05026455,0,301-400,1.62668885,NA,NA,NA,class,family,NA,NA,NA,project902
+matrix183,24,177,422,0.09934087,3.00271514,401-500,4.251629167,Yes,7,level2,subphylum,order ,1,2,multiple ,project906
+matrix184,30,177,959,0.18060264,1.976504121,401-500,4.706890596,Yes,2,level2,class,order,1,1,none,project908
+matrix185,173,74,2428,0.18965787,21.93090999,401-500,4.736056657,Yes,6,level2,order,species,0,0,multiple ,project912
+matrix186,40,94,510,0.1356383,0,401-500,3.97507052,Yes,5,level3,class,species,1,0,multiple ,project922
+matrix187,38,258,2349,0.23959608,2.999364418,101-200,4.879506461,Yes,4,level5,class,family,1,0,multiple ,project929
+matrix188,38,258,2379,0.24265606,5.053691553,101-200,4.879506461,Yes,4,level5,class,family,1,0,multiple ,project929
+matrix189,13,23,35,0.11705686,0,301-400,2.353533949,Yes,5,level5,class,species,1,2,multiple ,project931
+matrix190,23,33,16,0.02108037,0.870037816,51-100,1.014404445,NA,NA,NA,family,species,NA,NA,NA,project936
+matrix191,30,83,596,0.23935743,0,51-100,2.904962049,No,2,level3,order,species,0,0,none,project937
+matrix192,35,83,532,0.18313253,0,51-100,2.466613034,No,3,level4,order,species,1,1,multiple ,project938
+matrix193,25,72,311,0.17277778,1.981730783,301-400,4.08385619,No,4,level3,class,species,1,1,none,project944
+matrix194,64,102,319,0.04886642,0.293287302,51-100,2.502140654,Yes,4,level5,order,genus,1,0,multiple ,project945
+matrix195,80,220,5098,0.28965909,7.815252935,51-100,5.388540164,Yes,11,level2,order,species,0,0,multiple ,project947
+matrix196,26,66,658,0.38344988,0.61516731,101-200,4.546593564,Yes,2,level3,order,species,1,1,single,project955
+matrix197,21,37,187,0.24066924,0,Nov-50,3.105672184,NA,NA,NA,order,genus,NA,NA,NA,project960
+matrix198,24,33,55,0.06944444,0.983959875,51-100,2.704986856,Yes,5,level5,suborder,genus,1,2,none,project961
+matrix199,24,98,676,0.28741497,0,101-200,4.136842188,No,2,level3,suborder,species,1,1,none,project964
+matrix200,157,1844,172964,0.59744118,20.16613477,101-200,7.111468599,No,2,level3,class,species,0,0,none,project970
+matrix201,26,101,1540,0.58644326,0.61516731,101-200,3.349692969,Yes,2,level5,order,genus,0,1,none,project971
+matrix202,26,47,648,0.53027823,1.129730147,101-200,3.316817855,Yes,2,level5,order,genus,0,1,none,project971
+matrix203,14,234,1286,0.39255189,0,101-200,3.664497779,No,4,level4,suborder,genus,1,2,multiple ,project977
+matrix204,119,477,35999,0.63419833,4.228849711,101-200,6.743557259,Yes,3,level3,suborder,genus,0,0,multiple ,project979
+matrix205,100,235,7353,0.31289362,7.64069969,201-300,5.971014065,No,3,level2,class,species,0,2,multiple ,project982
+matrix206,28,205,3194,0.55644599,1.755597297,101-200,4.593069208,Yes,1,level5,suborder,genus,1,1,none,project984
+matrix207,108,122,2748,0.20856102,13.60203622,401-500,4.954557383,Yes,6,level3,class,species,1,0,none,project987
+matrix208,88,412,14421,0.39775485,1.257759034,201-300,6.209431619,No,5,level4,class,species,0,0,multiple ,project989
+matrix209,53,70,1480,0.39892183,3.337086568,101-200,4.025301003,Yes,8,level5,family,species,1,2,multiple ,project996
+matrix210,66,80,63,0.01193182,8.770888022,101-200,1.863965483,Yes,5,level5,family,species,0,2,none,project997
+matrix211,112,343,4493,0.11695648,26.08713576,201-300,4.830194794,Yes,4,level5,order,genus,1,0,none,project1013
+matrix212,28,110,458,0.1487013,1.812394779,401-500,4.351823226,Yes,2,level5,class,species,1,2,multiple ,project1020
+matrix213,50,44,43,0.01954545,0,401-500,1.345235779,Yes,2,level3,class,genus,1,1,none,project1023
+matrix214,163,156,1802,0.07086676,9.069259139,301-400,4.011773072,Yes,12,level1,order,genus,1,1,multiple ,project1024
+matrix215,58,185,2128,0.19832246,1.414996266,201-300,4.474552875,Yes,6,level1,order,species,1,2,multiple ,project1035
+matrix216,62,71,602,0.13675602,11.13339326,more than 501,4.055961077,Yes,5,level3,phylum,species,1,0,multiple ,project1037
+matrix217,62,69,600,0.14025245,11.17390971,more than 501,4.055961077,Yes,5,level3,phylum,species,1,0,multiple ,project1037
+matrix218,64,69,649,0.14696558,13.42396265,more than 501,4.161084618,Yes,5,level3,phylum,species,1,0,multiple ,project1037
+matrix219,13,37,39,0.08108108,0,51-100,2.345851989,Yes,2,level5,order,genus,0,2,none,project1045
+matrix220,34,291,3564,0.36021831,0,more than 501,5.028639312,Yes,4,level5,phylum,genus,0,0,multiple ,project1046
+matrix221,41,145,180,0.03027754,2.856972664,more than 501,2.497200946,No,4,level3,phylum,species,0,2,none,project1049
+matrix222,32,92,148,0.05027174,1.196303644,401-500,3.031446298,Yes,7,level5,class,species,1,1,none,project1066
+matrix223,72,426,7498,0.24445749,13.75050573,101-200,5.805138022,Yes,4,level5,class,genus,1,2,multiple ,project1070
+matrix224,22,70,466,0.3025974,0,201-300,3.970573096,No,2,level3,class,genus,1,1,multiple ,project1076
+matrix225,11,44,113,0.23347107,1.187150002,Nov-50,3.095795255,NA,NA,NA,suborder,species,NA,NA,NA,project1088
+matrix226,61,143,2432,0.27880316,3.862095849,101-200,5.401808444,No,5,level4,class,genus,1,2,multiple ,project1102
+matrix227,60,127,227,0.02979003,4.456638489,301-400,1.869837122,No,7,level4,class,species,0,0,single,project1104
+matrix228,22,57,188,0.14992026,0,301-400,3.538310596,No,4,level4,class,species,1,1,multiple ,project1105
+matrix229,11,65,203,0.28391608,0,201-300,3.095795255,No,2,level4,class,order,1,1,none,project1109
+matrix230,38,42,33,0.02067669,2.242340977,NA,1.571053627,Yes,6,level5,order,genus,1,0,multiple ,project1113
+matrix231,38,42,33,0.02067669,2.242340977,NA,1.571053627,Yes,6,level5,order,genus,1,0,multiple ,project1113
+matrix232,37,98,1151,0.31742967,6.338134923,301-400,4.831074987,Yes,2,level5,suborder,genus,0,1,none,project1118
+matrix233,73,408,14094,0.47320709,6.987563914,101-200,5.960305552,Yes,1,level5,class,species,0,0,none,project1119
+matrix234,33,85,784,0.27950089,0,101-200,4.309101316,No,2,level3,class,species,0,0,multiple ,project1120
+matrix235,32,63,224,0.11111111,6.815612714,401-500,3.250807236,Yes,3,level5,order,species,1,0,single,project1122
+matrix236,132,560,44367,0.60020292,4.988048523,101-200,6.765948002,Yes,4,level5,suborder,genus,1,1,none,project1126
+matrix237,29,127,1473,0.3999457,0,201-300,4.789015478,Yes,2,level5,class,family,0,2,none,project1135
+matrix238,56,72,603,0.14955357,4.187659691,301-400,3.936731931,Yes,2,level5,order,family,0,0,multiple ,project1138
+matrix239,10,32,70,0.21875,0,101-200,2.721928095,Yes,6,level2,class,species,1,1,none,project1144
+matrix240,62,111,2814,0.40889276,0.862674882,101-200,5.445974133,No,1,level5,suborder,species,0,2,multiple ,project1150
+matrix241,12,16,12,0.0625,0,51-100,1.040852083,Yes,2,level1,order,species,1,1,none,project1151
+matrix242,110,205,22,0.00097561,15.20810556,201-300,0.507749169,Yes,12,level3,order,species,1,2,multiple ,project1157
+matrix243,71,141,2368,0.23653981,8.811002853,101-200,5.043700288,No,3,level4,order,species,1,2,none,project1166
+matrix244,32,81,531,0.20486111,0,more than 501,4.051108501,No,8,level3,phylum,species,1,1,none,project1187
+matrix245,26,72,263,0.14049145,1.41381685,51-100,3.87314068,Yes,2,level5,order,species,1,2,multiple ,project1189
+matrix246,80,51,1575,0.38602941,15.21037053,301-400,4.971439345,No,6,level3,class,species,1,0,multiple ,project1192
+matrix247,49,175,3300,0.38483965,0,201-300,5.272773364,No,1,level1,class,family,0,1,none,project1194
+matrix248,28,83,210,0.09036145,0,51-100,3.253434386,Yes,5,level5,order,species,1,1,multiple ,project1197
+matrix249,109,321,14410,0.41184372,16.65832831,201-300,6.460755196,Yes,8,level5,class,genus,1,0,multiple ,project1200
+matrix250,53,208,2688,0.24383164,9.77764814,51-100,5.426033662,Yes,7,level3,order,genus,1,0,multiple ,project1207
+matrix251,46,125,207,0.036,0,51-100,2.839539739,Yes,6,level3,family,genus,1,0,multiple ,project1209
+matrix252,29,139,1656,0.41081617,0.71323646,201-300,4.651084443,Yes,2,level5,class,family,1,1,single,project1213
+matrix253,12,42,39,0.07738095,0,401-500,2.221251836,No,5,level2,class,family,1,1,multiple ,project1214
+matrix254,4,24,16,0.16666667,0,Nov-50,2,Yes,3,level3,genus,species,0,0,multiple ,project1220
+matrix255,5,61,45,0.14754098,0,Nov-50,2.321928095,Yes,3,level3,genus,species,0,0,multiple ,project1220
+matrix256,150,252,12092,0.31989418,2.00369297,more than 501,6.160299151,Yes,5,level1,subphylum,genus,0,0,multiple ,project1221
+matrix257,30,78,643,0.27478632,1.385424551,201-300,4.548394346,No,5,level5,infraorder,genus,0,0,multiple ,project1223
+matrix258,160,43,87,0.01264535,24.47018007,51-100,1.207290504,No,6,level1,order,species,0,0,none,project1226
+matrix259,18,20,73,0.20277778,1.87275033,51-100,2.947702779,No,1,level3,family,species,1,0,none,project1228
+matrix260,45,72,516,0.15925926,14.75107813,51-100,4.446974207,NA,NA,NA,order,family,NA,NA,NA,project1238
+matrix261,25,33,192,0.23272727,2.24591069,101-200,3.30346519,Yes,9,level3,family,species,0,0,multiple ,project1271
+matrix262,25,22,80,0.14545455,3.923096888,101-200,2.744498452,Yes,9,level3,family,species,0,0,multiple ,project1271
+matrix263,23,60,538,0.38985507,1.356539823,401-500,4.142914673,No,2,level2,subphylum,species,0,0,multiple ,project1278
+matrix264,106,275,11904,0.4083705,6.894798544,Nov-50,6.329197223,Yes,4,level5,suborder,species,0,0,multiple ,project2044
+matrix265,68,146,2845,0.28656326,0.974630489,101-200,5.442252503,Yes,3,level5,class,genus,0,0,multiple ,project2084
+matrix266,91,453,18801,0.45608034,9.361646898,more than 501,6.331970464,No,2,level4,phylum,family,1,1,none,project2086
+matrix267,114,555,36276,0.5733523,6.750136286,101-200,6.587275979,NA,NA,NA,suborder,species,NA,NA,NA,project2099
+matrix268,114,555,36337,0.57431642,6.750136286,101-200,suborder,NA,NA,NA,suborder,species,NA,NA,NA,project2099
+matrix269,71,209,5359,0.36114293,10.00164238,51-100,4.683592804,Yes,7,level5,order,species,1,0,multiple ,project2100
+matrix270,62,90,1815,0.32526882,4.394689348,101-200,5.174123279,Yes,4,level5,class,species,1,2,multiple ,project2106
+matrix271,74,158,3247,0.27771126,0.990493435,more than 501,5.499597622,Yes,7,level5,phylum,species,0,2,multiple ,project2116
+matrix272,81,477,25179,0.65168103,5.771248028,more than 501,6.068245065,Yes,5,level5,phylum,genus,0,2,multiple ,project2124
+matrix273,32,55,636,0.36136364,0,more than 501,4.215018266,No,6,level4,phylum,genus,0,2,none,project2131
+matrix274,109,124,6688,0.49482095,24.83364261,101-200,5.129897594,No,3,level4,class,species,0,2,none,project2144
+matrix275,55,56,308,0.1,8.950130916,101-200,3.466390395,Yes,8,level2,family,genus,1,1,none,project2151
+matrix276,81,421,16213,0.4754406,9.794553545,51-100,5.76262917,Yes,8,level2,order,species,1,2,none,project2167
+matrix277,318,535,38224,0.22467525,37.21425118,201-300,6.44557955,Yes ,6,level5,order,genus,1,2,multiple ,project2183
+matrix278,114,205,424,0.01814292,18.62344052,201-300,0.761862296,No,7,level2,order,species,0,2,multiple ,project2184
+matrix279,73,777,23151,0.40815571,2.367106128,101-200,5.998043737,Yes,8,level3,order,genus,1,0,none,project2189
+matrix280,105,216,5369,0.2367284,0.362782886,more than 501,5.597253018,Yes,5,level3,phylum,species,0,2,multiple ,project2191
+matrix281,38,364,4797,0.34680451,0,101-200,5.142664356,Yes,6,level5,class,genus,1,0,single ,project2193
+matrix282,16,57,299,0.32785088,0,51-100,3.75,No,2,level4,family,species,1,1,none,project2194
+matrix283,99,339,11781,0.35103245,1.4313329,301-400,6.11400763,Yes,5,level5,class,species,1,1,multiple ,project2196
+matrix284,61,178,2167,0.19957635,2.730552859,301-400,5.102387747,Yes,6,level3,class,species,1,1,multiple ,project2197
+matrix285,24,13,1,0.00320513,3.52169293,51-100,0.249882293,No,6,level1,order,species,0,0,none,project2204
+matrix286,15,64,290,0.30208333,0,Nov-50,3.906890596,Yes,6,level3,order,genus,1,1,multiple ,project2215
+matrix287,61,232,4129,0.29176088,0,more than 501,5.492132624,Yes,10,level2,phylum,species,0,0,multiple ,project2216
+matrix288,54,164,1552,0.17524842,5.759026701,51-100,4.847118058,No,7,level3,order,genus,0,2,multiple ,project2218
+matrix289,17,35,245,0.41176471,0.858869415,101-200,3.734521665,Yes,2,level5,family,genus,1,1,single,project2219
+matrix290,54,194,1314,0.12542955,4.185823938,201-300,4.847118058,Yes,9,level3,order,species,0,0,multiple ,project2244
+matrix291,42,83,899,0.2578887,0.868163803,51-100,3.309805274,Yes,6,level5,order,species,1,2,multiple ,project2261
+matrix292,63,339,2857,0.13377347,6.927358111,301-400,4.875945352,Yes,10,level3,suborder,species,0,0,multiple ,project2282
+matrix293,19,73,288,0.20764239,3.651117633,51-100,3.826874882,Yes,4,level5,order,genus,1,1,none,project2285
+matrix294,134,232,448,0.01441071,17.03658512,101-200,0.770702929,No,14,level4,family,species,1,0,multiple ,project2286
+matrix295,73,220,2372,0.14769614,9.996380783,201-300,5.172281067,Yes,2,level5,order,species,1,0,none,project2289
+matrix296,79,132,5710,0.54756425,9.735169934,401-500,5.395243564,Yes,4,level1,class,species,0,0,none,project2291
+matrix297,114,497,26984,0.47626108,6.708671118,more than 501,6.587275979,No,4,level3,phylum,family,1,1,none,project2292
+matrix298,66,382,12389,0.49139299,4.792483593,more than 501,5.983788059,Yes,4,level5,phylum,genus,1,0,none,project2320
+matrix299,51,65,689,0.20784314,17.3066594,more than 501,4.140288764,Yes,4,level1,phylum,species,0,0,multiple ,project2329
+matrix300,94,272,10075,0.39404725,6.857994717,Nov-50,6.134272096,Yes,5,level5,suborder,species,0,2,multiple ,project2331
+matrix301,12,85,226,0.22156863,0,Nov-50,3.418295834,Yes,5,level5,genus,species,0,0,multiple ,project2334
+matrix302,45,60,492,0.18222222,5.819925862,101-200,3.71005733,No,4,level4,class,species,0,0,multiple ,project2335
+matrix303,78,134,4333,0.41456181,18.73841789,101-200,5.631305424,Yes,5,level5,class,genus,1,2,multiple ,project2336
+matrix304,40,46,142,0.07717391,4.087799025,101-200,2.78598245,No,3,level3,order,genus,1,0,none,project2340
+matrix305,30,234,3054,0.43504274,0,101-200,4.706890596,Yes,5,level3,order,order,0,0,none,project2342
+matrix306,23,144,649,0.19595411,0.678269911,101-200,4.142914673,No,4,level4,class,species,1,1,none,project2346
+matrix307,39,93,554,0.15274331,2.325504683,301-400,4.265544847,Yes,7,level5,class,genus,1,1,multiple ,project2348
+matrix308,26,66,133,0.07750583,0,301-400,3.112585391,Yes,5,level5,class,family,1,1,multiple ,project2349
+matrix309,42,111,182,0.03903904,0,more than 501,2.027394171,Yes,3,level5,kingdom,genus,0,0,none,project2359
+matrix310,150,226,12755,0.37625369,0.81431812,401-500,6.58202169,Yes,3,level3,order,species,1,1,none,project2384
+matrix311,28,22,96,0.15584416,1.655790944,101-200,2.378783493,No,9,level4,class,species,0,1,multiple ,project2387
+matrix312,111,439,27254,0.55929734,4.610148272,201-300,6.456489965,No,7,level4,order,genus,1,1,multiple ,project2399
+matrix313,23,66,209,0.13768116,0,51-100,3.290321609,NA,NA,NA,order,genus,NA,NA,NA,project2403
+matrix314,5,197,1,0.00101523,0,Nov-50,0.721928095,Yes,6,level1,suborder,genus,1,1,multiple ,project2405
+matrix315,6,65,0,0,0,Nov-50,0,Yes,9,level1,family,genus,0,1,none,project2406
+matrix316,19,14,7,0.02631579,1.5761828,51-100,0.949452015,No,6,level2,family,species,1,1,none,project2409
+matrix317,102,600,34723,0.56736928,3.76964867,201-300,6.429730366,Yes,3,level5,class,species,0,2,multiple ,project2416
+matrix318,41,273,2907,0.25971589,0,101-200,4.930484322,Yes,5,level5,class,family,1,0,multiple ,project2436
+matrix319,41,273,2948,0.2633789,0,101-200,4.930484322,Yes,5,level5,class,family,1,0,multiple ,project2436
+matrix320,32,101,1188,0.36757426,1.084729222,Nov-50,4.663909766,Yes,3,level5,suborder,family,1,1,none,project2439
+matrix321,53,206,3073,0.28146181,3.948863499,Nov-50,5.43528319,Yes,5,level3,suborder,genus,1,0,multiple ,project2442
+matrix322,176,463,49385,0.60604015,12.68278413,51-100,4.959410743,Yes,5,level3,order,species,1,2,multiple ,project2449
+matrix323,24,391,5184,0.55242967,0,Nov-50,4.584962501,Yes,7,level2,family,species,1,0,multiple ,project2450
+matrix324,24,380,5520,0.60526316,0,Nov-50,4.584962501,Yes,11,level1,family,species,0,0,multiple ,project2451
+matrix325,94,272,9897,0.38708542,6.059962345,Nov-50,6.256716511,No,3,level4,suborder,species,0,0,none,project2452
+matrix326,8,24,35,0.18229167,0,Nov-50,1.75,Yes,10,level3,family,genus,0,2,none,project2473
+matrix327,213,387,4915,0.05962563,33.1311741,51-100,5.174922722,Yes,3,level5,order,species,1,1,none,project2477
+matrix328,20,7,23,0.16428571,5.593688327,51-100,1.716642278,No,4,level1,order,species,0,0,single,project2491
+matrix329,20,75,487,0.32466667,0,201-300,3.746439345,No,2,level2,class,species,1,0,none,project2495
+matrix330,15,7,0,0,0,301-400,0,No,4,level1,family,species,0,0,single,project2502
+matrix331,25,30,94,0.12533333,2.372272911,51-100,2.968884071,No,7,level3,order,genus,0,0,none,project2506
+matrix332,32,247,2331,0.29491397,0,201-300,4.8125,No,4,level3,class,genus,1,1,none,project2527
+matrix333,133,561,44958,0.60254915,3.478341493,more than 501,6.793967492,Yes,6,level3,kingdom,genus,1,0,multiple ,project2532
+matrix334,8,63,43,0.08531746,0,51-100,1.905639062,Yes,7,level3,family,species,0,2,multiple ,project2533
+matrix335,58,77,423,0.09471563,4.614000964,101-200,3.9390116,No,7,level1,subclass,species,1,0,multiple ,project2537
+matrix336,48,63,287,0.09490741,2.167118063,101-200,3.651754427,No,7,level1,subclass,species,1,0,multiple ,project2537
+matrix337,8,12,0,0,0,101-200,0,NA,NA,NA,order,genus,NA,NA,NA,project2544
+matrix338,13,50,303,0.46615385,0,51-100,3.39274741,Yes,2,level5,order,genus,1,1,none,project2545
+matrix339,14,75,436,0.4152381,0,NA,3.664497779,NA,NA,NA,suborder,genus,NA,NA,NA,project2546
+matrix340,69,119,2813,0.34258921,19.32204641,51-100,4.79159661,No,9,level4,order,species,1,2,multiple ,project2547
+matrix341,42,131,1973,0.35859687,0.832994025,101-200,5.106603137,NA,NA,NA,order,genus,NA,NA,NA,project2551
+matrix342,37,145,1897,0.35358807,0,more than 501,4.553651676,Yes,6,level3,phylum,genus,1,2,multiple ,project2553
+matrix343,43,282,3173,0.26166914,0,Nov-50,5.083127836,Yes,5,level5,suborder,species,1,0,none,project2554
+matrix344,83,125,1618,0.15595181,7.462448777,51-100,3.000949559,Yes,4,level5,family,species,0,0,multiple ,project2576
+matrix345,31,78,686,0.28370554,1.939698496,201-300,4.607264455,No,5,level4,suborder,genus,0,0,multiple ,project2579
+matrix346,42,58,112,0.04597701,10.70974228,51-100,1.85497397,Yes,7,level3,family,species,0,2,multiple ,project2600
+matrix347,43,307,6264,0.47450951,2.915540407,101-200,5.193706615,No,7,level4,class,genus,1,2,none,project2604
+matrix348,153,256,12421,0.31712112,2.575332308,more than 501,6.191540376,Yes,5,level2,subphylum,species,0,0,multiple ,project2606
+matrix349,72,321,6801,0.29426272,5.94639221,101-200,5.843400349,NA,NA,NA,class,genus,NA,NA,NA,project2607
+matrix350,74,321,7305,0.30752715,5.948269602,101-200,5.891753703,NA,NA,NA,class,genus,NA,NA,NA,project2607
+matrix351,17,53,121,0.13429523,0.858869415,51-100,3.337175341,Yes,1,level5,order,species,1,1,multiple ,project2610
+matrix352,18,41,207,0.2804878,1.00651667,201-300,3.086048612,No,6,level4,order,genus,1,1,multiple ,project2615
+matrix353,48,32,261,0.16992188,10.44024091,301-400,3.362706449,Yes,4,level5,class,genus,0,1,multiple ,project2621
+matrix354,34,68,30,0.01297578,0.990578162,101-200,1.832513121,Yes,5,level5,family,species,1,0,multiple ,project2624
+matrix355,97,568,29599,0.53722593,3.477445772,101-200,6.352490162,No,6,level4,suborder,species,1,2,multiple ,project2626
+matrix356,72,169,4790,0.39365549,8.127006663,101-200,5.515488675,Yes,7,level5,order,suborder,1,2,multiple ,project2627
+matrix357,95,272,10207,0.39500774,12.29117794,Nov-50,6.175015871,Yes,3,level5,order,species,0,0,none,project2648
+matrix358,32,101,1188,0.36757426,1.084729222,51-100,4.663909766,Yes,3,level5,order,family,1,1,none,project2650
+matrix359,12,16,17,0.08854167,0,101-200,1.418295834,Yes,5,level5,class,genus,0,0,none,project2653
+matrix360,38,272,2781,0.2690596,0,Nov-50,5.037401198,No,5,level3,suborder,species,0,2,none,project2655
+matrix361,196,1227,125336,0.52116495,17.36973348,51-100,7.251855684,No,2,level3,order,species,0,2,none,project2668
+matrix362,96,270,13725,0.52951389,5.908277125,201-300,6.222932423,No,6,level3,order,species,0,2,multiple ,project2669
+matrix363,17,41,54,0.07747489,0,301-400,2.460904932,No,7,level3,class,species,1,1,multiple ,project2691
+matrix364,19,42,61,0.0764411,0,more than 501,2.502598068,Yes,6,level3,kingdom,genus,0,0,multiple ,project2695
+matrix365,64,35,526,0.23482143,12.97272373,301-400,3.968903424,No,1,level4,class,species,0,1,none,project2707
+matrix366,385,520,64021,0.31978521,64.61146159,51-100,6.636725792,Yes,5,level5,order,species,1,2,multiple ,project2722
+matrix367,56,97,964,0.17746686,3.771932428,201-300,4.44951385,Yes,4,level5,order,species,1,1,multiple ,project2723
+matrix368,24,71,112,0.0657277,0,301-400,2.610625918,No,8,level4,class,species,0,0,multiple ,project2726
+matrix369,46,292,2163,0.16103335,7.289328777,51-100,3.411858635,No,4,level4,order,species,0,0,none,project2737
+matrix370,64,163,4428,0.42446319,6.654008161,201-300,5.8125,No,5,level1,class,genus,1,2,multiple ,project2749
+matrix371,29,187,1960,0.36142357,0.56348482,more than 501,4.789015478,No,10,level1,phylum,species,0,2,multiple ,project2762
+matrix372,102,219,2553,0.11428955,22.50678463,51-100,5.064863975,Yes,5,level1,order,family,0,0,multiple ,project2769
+matrix373,55,307,6281,0.37198697,0,201-300,5.708632441,Yes,3,level5,class,species,0,0,none,project2770
+matrix374,94,124,131,0.01123885,21.72107637,101-200,2.267151611,No,2,level3,order,species,1,0,multiple ,project2771
+matrix375,96,270,13725,0.52951389,5.908277125,201-300,6.222932423,Yes,8,level5,order,species,0,0,none,project2776
+matrix376,58,202,4768,0.40696483,1.31519061,51-100,5.638069142,Yes,4,level5,family,species,0,0,single,project2781
+matrix377,33,106,1441,0.41194969,1.255940144,101-200,4.453188816,No,8,level4,order,species,0,0,multiple ,project2788
+matrix378,34,106,1476,0.40954495,1.485867243,101-200,4.513645929,No,8,level4,order,species,0,0,multiple ,project2788
+matrix379,93,230,4387,0.20509584,7.31980766,more than 501,4.706469144,No,7,level4,phylum,family,1,0,multiple ,project2792
+matrix380,113,170,7859,0.40910984,18.5344965,101-200,5.908155511,NA,NA,NA,order,genus,NA,NA,NA,project2794
+matrix381,30,113,212,0.06253687,3.963673281,101-200,2.389898095,NA,NA,NA,family,species,NA,NA,NA,project2797
+matrix382,30,11,47,0.14242424,5.23387901,101-200,0.2108423,NA,NA,NA,family,species,NA,NA,NA,project2797
+matrix383,76,92,1515,0.2166762,21.89118192,101-200,4.752889238,No,6,level4,class,family,0,0,none,project2798
+matrix384,28,184,1517,0.29444876,8.569760415,101-200,4.593069208,No,6,level4,class,family,0,0,none,project2798
+matrix385,73,426,9678,0.31120972,11.32355843,101-200,5.812978326,No,6,level4,class,family,0,0,none,project2798
+matrix386,38,65,428,0.17327935,3.03570416,101-200,3.733097966,No,6,level4,class,family,0,0,none,project2798
+matrix387,64,401,13376,0.52119701,11.73882986,101-200,5.800704883,No,6,level4,class,genus,1,0,single,project2799
+matrix388,54,225,6120,0.5037037,1.550928576,more than 501,4.907212733,No,3,level3,class,family,0,0,multiple ,project2800
+matrix389,86,76,340,0.05201958,6.744095808,301-400,2.878404816,No,8,level2,class,species,1,0,multiple ,project2804
+matrix390,53,103,1746,0.3198388,9.964552957,301-400,4.749160021,No,8,level2,class,species,1,0,multiple ,project2804
+matrix391,47,76,338,0.09462486,1.078382013,301-400,3.636738522,No,8,level2,class,species,1,0,multiple ,project2804
+matrix392,57,323,7019,0.38123948,1.643544631,201-300,5.55218826,No,16,level3,class,species,1,0,multiple ,project2816
+matrix393,13,54,108,0.15384615,0,NA,2.719294526,Yes,4,level3,family,genus,0,1,multiple ,project3116
+matrix394,61,416,3019,0.11897068,1.198868813,more than 501,5.59049328,Yes,4,level5,phylum,family,0,0,none,project3134
+matrix395,58,370,6324,0.29468779,3.332371118,more than 501,5.556088323,Yes,4,level5,phylum,family,0,0,none,project3134
+matrix396,20,107,403,0.18831776,1.802125162,Nov-50,3.503701696,No,3,level4,suborder,genus,1,0,single,project3151
+matrix397,33,209,2721,0.39451936,3.355616868,51-100,4.718488437,Yes,3,level5,family,species,0,0,multiple ,project3154
+matrix398,28,59,709,0.42917676,0.579644852,201-300,4.280394654,NA,NA,NA,family,species,NA,NA,NA,project3165
+matrix399,15,47,273,0.38723404,0,101-200,3.640223929,Yes,6,level5,suborder,species,0,2,multiple ,project3167
+matrix400,90,415,17106,0.45799197,16.75514331,101-200,6.283465457,No,9,level4,class,genus,1,1,none,project3168
+matrix401,43,227,4927,0.50476386,3.557032825,101-200,5.147194987,NA,NA,NA,class,species,NA,NA,NA,project3172
+matrix402,95,419,17505,0.43976887,1.284437385,more than 501,6.338276661,No,3,level4,phylum,species,0,2,single,project3173
+matrix403,39,52,377,0.18589744,0,101-200,4.141064001,No,4,level3,class,species,1,0,single,project3184
+matrix404,25,101,342,0.13544554,0,301-400,3.779470571,No,3,level4,class,family,1,0,single,project3187
+matrix405,30,77,652,0.28225108,4.120434362,201-300,4.573557262,NA,NA,NA,infraorder,genus,NA,NA,NA,project3188
+matrix406,47,211,2291,0.23101744,0.498819131,more than 501,5.198101884,Yes,4,level1,subphylum,species,0,2,none,project3189
+matrix407,61,337,7768,0.37787615,0.40400432,201-300,5.766802911,NA,NA,NA,class,species,NA,NA,NA,project3203
+matrix408,50,192,3018,0.314375,3.743090437,301-400,5.22875844,Yes,6,level5,class,species,0,0,multiple ,project3211
+matrix409,19,98,292,0.15682062,0,201-300,3.787143961,No,18,level4,order,genus,1,2,single,project3216
+matrix410,13,45,97,0.16581197,1.051456439,201-300,3.238901257,Yes,4,level5,family,species,0,0,multiple ,project3234
+matrix411,59,77,436,0.09597182,8.27506206,51-100,3.94950555,No,4,level4,order,species,0,0,single,project3238
+matrix412,49,18,51,0.05782313,8.676336559,51-100,1.871056265,No,5,level1,family,species,1,2,multiple ,project3239
+matrix413,26,34,59,0.06674208,0.701072479,more than 501,1.51926192,Yes,8,level5,phylum,species,1,1,multiple ,project3244
+matrix414,89,413,15523,0.42231412,0.911595466,more than 501,6.265004358,No,5,level4,phylum,species,0,0,multiple ,project3249
+matrix415,125,394,24662,0.50075127,21.7529558,101-200,6.423588785,No,7,level3,class,species,0,0,multiple ,project3253
+matrix416,18,74,397,0.29804805,0,Nov-50,3.947702779,No,5,level4,order,genus,1,1,multiple ,project3260
+matrix417,66,303,8664,0.43324332,10.84982755,101-200,5.771666847,Yes,3,level5,class,order,0,0,none,project3264
+matrix418,68,355,14920,0.61806131,2.702032195,201-300,5.782243907,No,5,level4,order,genus,1,0,none,project3267
+matrix419,391,520,61526,0.30260673,54.63905116,51-100,6.565823701,No,1,level3,family,species,0,0,none,project3285
+matrix420,32,111,987,0.27787162,5.014982984,101-200,4.538909766,No,4,level3,order,genus,1,1,none,project3293
+matrix421,32,111,987,0.27787162,5.014982984,101-200,4.538909766,No,4,level3,order,genus,1,1,none,project3293
+matrix422,13,36,45,0.09615385,0,101-200,2.653544297,NA,NA,NA,class,species,NA,NA,NA,project3335
+matrix423,44,77,61,0.01800472,4.177739443,51-100,1.696247855,Yes,4,level3,family,species,0,1,single,project3345
+matrix424,34,143,1277,0.26264912,4.307842381,101-200,4.793345194,Yes,7,level5,class,species,1,0,multiple ,project3351
+matrix425,78,138,170,0.01579339,29.09713802,301-400,1.813082872,No ,9,level1,class,genus,0,2,multiple ,project3354
+matrix426,78,121,2489,0.26372113,31.86448404,301-400,5.105413757,No ,9,level1,class,genus,0,2,multiple ,project3354
+matrix427,33,121,1905,0.4770849,2.214869103,Nov-50,4.741363816,No ,3,level1,suborder,genus,0,2,single,project3380
+matrix428,34,93,760,0.24035421,0,201-300,4.057476076,NA,NA,NA,order,species,NA,NA,NA,project3381
+matrix429,45,352,6251,0.39463384,1.897715355,more than 501,5.314075319,Yes,3,level5,phylum,species,1,0,multiple ,project3384
+matrix430,47,132,135,0.02176015,0,201-300,2.889080775,Yes,7,level5,suborder,species,1,1,multiple ,project3392
+matrix431,49,132,181,0.02798392,1.173665131,201-300,3.057998015,Yes,7,level5,suborder,species,1,1,multiple ,project3392
+matrix432,24,38,104,0.11403509,1.050990718,101-200,2.869910023,Yes,6,level5,class,genus,1,1,multiple ,project3400
+matrix433,100,324,2762,0.08524691,16.89085874,51-100,5.000770278,Yes,5,level5,suborder,genus,1,0,multiple ,project3405
+matrix434,19,30,134,0.23508772,1.001844102,Nov-50,3.155565013,Yes,4,level5,subfamily,species,0,0,multiple ,project3408
+matrix435,84,530,17698,0.3975292,11.85969029,more than 501,6.145235429,No ,1,level3,phylum,family,1,1,none,project3411
+matrix436,40,368,768,0.05217391,2.383956898,51-100,3.643942708,Yes,7,level5,class,species,1,0,single,project3419
+matrix437,110,278,12714,0.41576194,10.35383346,Nov-50,6.410860736,No ,1,level4,suborder,species,1,2,none,project3422
+matrix438,99,245,7643,0.31511029,4.517905482,201-300,5.899410534,No ,7,level4,class,species,0,2,multiple ,project3436
+matrix439,64,89,993,0.17433287,1.598921815,more than 501,4.415782362,No ,6,level3,phylum,genus,0,0,multiple ,project3437
+matrix440,30,34,100,0.09803922,0,101-200,2.016536504,Yes,5,level2,order,species,0,1,multiple ,project3445
+matrix441,36,102,572,0.15577342,1.514728937,51-100,3.191730355,Yes,5,level3,class,species,1,0,single,project3456
+matrix442,20,170,1128,0.33176471,7.323469751,51-100,4.221928095,No ,6,level3,family,species,0,0,multiple ,project3466
+matrix443,55,303,6168,0.37011701,9.487596612,101-200,5.476725395,No ,1,level1,class,order,0,0,none,project3470
+matrix444,21,109,379,0.16557449,2.301089612,Nov-50,3.517816091,No ,10,level3,suborder,genus,0,0,multiple ,project3477
+matrix445,42,202,3261,0.38437058,0.89829856,more than 501,5.011365042,Yes,6,level3,phylum,genus,1,2,none,project3480
+matrix446,15,79,330,0.27848101,0,51-100,3.589898095,Yes,5,level3,order,genus,1,1,multiple ,project3485
+matrix447,50,115,2310,0.40173913,11.84629729,101-200,5.08385619,No ,2,level3,class,species,1,0,none,project3489
+matrix448,160,259,13693,0.33042954,0.859979349,more than 501,6.178758586,Yes,7,level5,phylum,species,0,2,multiple ,project3497
+matrix449,102,270,14834,0.53863471,10.29352142,201-300,6.24585892,Yes,5,level5,class,species,0,2,multiple ,project3501
+matrix450,39,294,4859,0.42377464,0,more than 501,5.028991962,Yes,4,level5,phylum,species,0,2,none,project3508
+matrix451,15,51,111,0.14509804,1.106612855,51-100,2.173557262,Yes,6,level3,order,species,0,0,none,project3509
+matrix452,75,45,107,0.0317037,7.275004206,401-500,2.106044118,NA,NA,NA,class,genus,NA,NA,NA,project3512
+matrix453,72,54,90,0.02314815,9.63891344,401-500,1.816727724,NA,NA,NA,class,genus,NA,NA,NA,project3512
+matrix454,63,77,424,0.08740466,5.398319656,401-500,3.192230528,NA,NA,NA,class,genus,NA,NA,NA,project3512
+matrix455,102,324,10513,0.31811305,12.20771353,51-100,6.249685975,NA,NA,NA,order,species,NA,NA,NA,project3520
+matrix456,93,156,6940,0.47835677,28.55369186,51-100,5.834752628,No ,10,level4,order,genus,1,0,multiple ,project3521
+matrix457,42,85,676,0.18935574,1.342178712,301-400,4.201459984,No ,15,level3,order,family,0,2,multiple ,project3533
+matrix458,24,74,467,0.26295045,0,201-300,4.220175521,Yes,3,level5,order,suborder,1,2,single,project3541
+matrix459,22,74,474,0.29115479,0,201-300,4.061482187,Yes,2,level5,order,suborder,1,2,single,project3541
+matrix460,34,120,1130,0.27696078,0,101-200,4.491443356,No ,3,level4,order,genus,1,1,none,project3544
+matrix461,86,59,1088,0.21442649,10.69934077,201-300,3.510349511,No ,4,level3,order,species,1,1,none,project3558
+matrix462,36,110,958,0.24191919,8.171769105,301-400,4.537844793,Yes,7,level3,order,genus,0,0,multiple ,project3561
+matrix463,43,97,1047,0.25101894,2.338889809,201-300,4.664523185,No ,4,level3,order,genus,1,1,multiple ,project3569
+matrix464,21,37,199,0.25611326,0,101-200,3.3273399,No ,3,level3,class,genus,0,2,multiple ,project3575
+matrix465,106,194,6198,0.30140051,15.00991572,201-300,6.05080312,Yes,3,level5,class,genus,1,2,multiple ,project3587
+matrix466,41,99,188,0.04631683,3.699775,NA,2.462280072,No ,9,level2,family,species,0,2,multiple ,project3592
+matrix467,54,128,183,0.02647569,6.348175401,101-200,1.586873984,Yes,10,level5,family,species,1,2,multiple ,project3599
+matrix468,24,52,362,0.2900641,4.24644934,Nov-50,3.855388542,Yes,8,level3,order,genus,1,2,multiple ,project3601
+matrix469,105,197,6279,0.3035533,1.806754816,201-300,6.004442422,Yes,3,level5,order,genus,1,2,none,project3602
+matrix470,49,63,398,0.12892776,6.732301999,101-200,2.981050269,Yes,5,level5,class,species,0,0,none,project3613
+matrix471,60,693,8383,0.20161135,9.623493126,51-100,5.527642471,No ,7,level4,class,species,1,0,multiple ,project3614
+matrix472,65,361,7765,0.33091839,17.32721889,more than 501,5.806983198,No ,5,level4,kingdom,genus,1,1,multiple ,project3617
+matrix473,21,57,24,0.02005013,0,NA,1.301240785,No ,9,level2,family,genus,1,0,multiple ,project3619
+matrix474,62,245,7973,0.52488479,1.098579469,more than 501,5.728389859,No ,5,level4,phylum,genus,0,0,none,project3621
+matrix475,27,57,66,0.04288499,5.007959523,101-200,2.607696078,No ,7,level2,class,species,1,1,multiple ,project3625
+matrix476,22,57,246,0.19617225,0,101-200,3.970573096,No ,9,level3,class,species,1,1,multiple ,project3626
+matrix477,86,530,17979,0.39444932,11.43677263,more than 501,6.16167304,Yes,11,level3,phylum,genus,1,2,multiple ,project3637
+matrix478,69,202,125,0.00896829,17.70755675,NA,2.031385388,Yes,9,level3,family,species,1,2,single,project3646
+matrix479,45,77,1061,0.30620491,6.960532834,301-400,4.157650874,Yes,13,level5,class,species,1,1,multiple ,project3655
+matrix480,61,339,7752,0.37487306,0.313995091,201-300,5.734016026,Yes,4,level5,class,species,0,2,multiple ,project3656
+matrix481,20,26,41,0.07884615,1.514356345,301-400,2.10869497,No ,11,level3,class,genus,1,1,none,project3664
+matrix482,39,297,1788,0.15436415,0.442690999,51-100,4.201692924,No ,13,level4,class,species,1,0,multiple ,project3665
+matrix483,62,120,762,0.10241935,9.317089722,401-500,3.572012824,Yes,10,level5,division,species,0,0,multiple ,project3670
+matrix484,11,54,36,0.06060606,0,NA,2.845350937,Yes,10,level5,family,species,1,1,multiple ,project3672
+matrix485,11,54,40,0.06734007,0,NA,2.663532755,Yes,10,level5,family,species,1,1,multiple ,project3672
+matrix486,50,98,978,0.19959184,1.316715785,101-200,4.43127238,No ,9,level4,class,family,0,2,multiple ,project3677
+matrix487,36,248,3161,0.35405466,1.121868336,101-200,5.05881389,No ,11,level5,suborder,family,1,2,multiple ,project3684
+matrix488,37,257,4839,0.50888632,0,51-100,5.047291203,No ,11,level3,superorder,family,0,0,none,project3685
+matrix489,43,252,6037,0.5571244,1.299212002,51-100,5.22266272,No ,8,level5,superorder,family,0,2,none,project3687
+matrix490,60,245,8655,0.58877551,8.537445539,51-100,5.527642471,No,3,level3,superorder,family,1,1,multiple ,project3688
+matrix491,40,45,170,0.09444444,6.84367211,201-300,2.915957321,No,10,level2,order,genus,1,0,multiple ,project3695
+matrix492,22,22,28,0.05785124,1.581533896,201-300,1.55034071,Yes,11,level5,class,species,1,1,multiple ,project3696
+matrix493,20,62,165,0.13306452,0,301-400,2.695461844,NA,NA,NA,class,species,NA,NA,NA,project3698
+matrix494,146,324,16081,0.33995011,18.9489382,Nov-50,6.702705275,No,5,level4,suborder,species,1,2,multiple ,project3701
+matrix495,27,193,468,0.08981002,0,51-100,4.134336113,Yes,5,level5,family,species,1,0,multiple ,project3705
+matrix496,69,254,6848,0.39073377,2.019684112,201-300,5.644756341,Yes,4,level3,class,genus,1,2,multiple ,project3708
+matrix497,42,65,0,0,0,201-300,0,No,12,level4,suborder,species,1,1,multiple ,project3709
+matrix498,115,65,0,0,3.891444372,201-300,0,No,6,level2,order,species,0,1,multiple ,project3710
+matrix499,79,132,378,0.03624856,8.769795572,NA,2.903995016,Yes,8,level2,family,species,1,2,multiple ,project3711
+matrix500,12,22,1,0.00378788,0,401-500,0.41381685,No,5,level4,class,species,1,1,single,project3716
+matrix501,90,189,8655,0.50881834,24.90985119,201-300,5.249736986,No,10,level4,order,species,0,0,single,project3725
+matrix502,76,146,3317,0.29893655,4.58299299,101-200,5.543851527,Yes,6,level3,class,genus,1,2,multiple ,project3726
+matrix503,21,107,402,0.17890521,0,Nov-50,3.64900121,Yes,5,level2,suborder,genus,0,0,multiple ,project3730
+matrix504,157,853,88549,0.66120325,5.560249745,101-200,7.063635637,No,8,level4,suborder,genus,0,0,multiple ,project3733
+matrix505,86,110,490,0.05179704,16.35702463,51-100,2.943706002,Yes,3,level3,family,genus,0,0,none,project3741
+matrix506,9,16,16,0.11111111,1.364824322,51-100,0.986426729,Yes,3,level3,family,species,0,0,none,project3742
+matrix507,46,201,1018,0.11010167,1.432375988,51-100,4.34389538,Yes,7,level5,family,species,1,0,multiple ,project3755
+matrix508,34,69,873,0.37212276,2.896612006,101-200,4.432619826,No,4,level4,order,species,0,2,multiple ,project3756
+matrix509,130,509,33057,0.49957685,12.39581646,101-200,6.755022525,No,6,level3,class,genus,1,1,multiple ,project3760
+matrix510,89,286,8472,0.3328357,8.542205999,Nov-50,6.006357729,No,5,level4,suborder,species,1,2,multiple ,project3766
+matrix511,79,214,5095,0.30137229,14.85547408,51-100,5.787896096,No,9,level3,order,genus,1,1,multiple ,project3768
+matrix512,76,123,29,0.00310227,5.30688006,201-300,0.597174248,No,8,level2,order,genus,1,2,none,project3769
+matrix513,194,823,96486,0.60431411,14.97441713,201-300,7.369217546,No,6,level1,family,species,1,0,multiple ,project3773
+matrix514,83,163,4606,0.34045384,3.252668542,51-100,5.242750042,No,7,level4,order,species,1,2,multiple ,project3782
+matrix515,21,27,168,0.2962963,1.671468922,201-300,3.653756708,Yes,5,level5,suborder,species,1,0,single,project3785
+matrix516,29,190,889,0.16134301,0.56348482,201-300,4.487122805,No,12,level3,suborder,species,1,2,multiple ,project3792
+matrix517,15,63,184,0.19470899,0,201-300,3.189898095,No,12,level3,suborder,species,1,2,multiple ,project3792
+matrix518,54,117,719,0.11380184,5.006395151,more than 501,4.468147809,Yes,8,level5,phylum,species,1,2,multiple ,project3804
+matrix519,202,746,109307,0.72536697,16.09105192,101-200,7.237322621,No,5,level3,suborder,genus,1,0,multiple ,project3806
+matrix520,96,83,698,0.0876004,21.93494872,51-100,3.772109298,No,7,level3,family,genus,0,0,multiple ,project3807
+matrix521,98,568,31137,0.5593741,3.887268062,101-200,6.382517115,Yes,3,level5,suborder,genus,0,0,multiple ,project3812
+matrix522,49,206,4177,0.41381018,0.366605145,more than 501,5.247362905,Yes,11,level5,phylum,genus,1,2,none,project3818
+matrix523,56,351,11104,0.56491656,3.575507578,101-200,5.628783493,No,5,level4,suborder,genus,1,2,none,project3822
+matrix524,46,134,1682,0.27287476,0.386330729,51-100,4.795088586,No,8,level2,family,species,1,1,none,project3831
+matrix525,10,27,4,0.01481481,0,201-300,0.721928095,No,6,level4,order,species,1,0,none,project3832
+matrix526,20,42,77,0.09166667,0,more than 501,2.663865122,No,6,level1,kingdom,genus,0,0,none,project3868
+matrix527,92,4541,131321,0.31433653,5.713967667,101-200,6.501822826,No,4,level3,class,species,0,0,none,project3871
+matrix528,54,125,1112,0.16474074,4.078503677,more than 501,4.46014404,No,4,level3,kingdom,species,0,0,none,project3874
+matrix529,196,823,95709,0.59333077,14.63955976,201-300,7.348053403,No,3,level3,class,species,0,0,none,project3887
+matrix530,59,148,387,0.04431974,2.38955886,51-100,3.227980917,Yes,5,level5,order,species,0,0,none,project3894
+matrix531,72,207,400,0.02683843,2.647677649,51-100,1.585227861,No,2,level4,class,species,0,0,none,project3896
+matrix532,85,143,1531,0.1259564,19.08566636,201-300,4.792048297,No,5,level4,order,species,1,0,multiple ,project3898
+matrix533,51,364,7691,0.41429649,0.766675489,101-200,5.554778283,Yes,3,level5,class,genus,1,0,none,project3908
+matrix534,135,28,491,0.12989418,33.84342925,51-100,2.825113825,No,4,level4,family,species,0,2,none,project3910
+matrix535,13,86,201,0.17978533,0,51-100,3.180832987,No,3,level4,class,order,0,0,none,project3914
+matrix536,40,130,685,0.13173077,1.000856235,201-300,3.852655597,No,6,level4,order,species,1,2,none,project3929
+matrix537,32,84,330,0.12276786,0.646605661,51-100,2.329202804,NA,NA,NA,family,species,NA,NA,NA,project3930
+matrix538,115,287,16477,0.49922739,25.67771595,101-200,6.462881355,Yes,6,level1,order,species,1,2,none,project3931
+matrix539,72,170,4794,0.39166667,12.91035743,101-200,5.438964023,NA,NA,NA,order,suborder,NA,NA,NA,project3932
+matrix540,21,43,415,0.45957918,0,101-200,3.594465637,Yes,3,level3,order,species,1,2,none,project3933
+matrix541,10,36,103,0.28611111,0,Nov-50,2.321928095,No,3,level3,order,species,0,2,multiple ,project3935
+matrix542,42,170,2323,0.32535014,7.615250784,101-200,4.669352471,No,7,level4,order,suborder,0,2,none,project3936
+matrix543,119,667,42848,0.53983092,3.282585863,201-300,6.697256629,Yes,4,level5,class,species,0,2,multiple ,project3938
+matrix544,80,600,22062,0.459625,0.859286612,201-300,6.112492001,No,2,level4,class,genus,0,0,none,project3941
+matrix545,33,102,586,0.17409388,1.330122837,101-200,4.22259365,Yes,6,level5,order,genus,1,2,multiple ,project3942
+matrix546,121,551,35294,0.52937559,4.770248163,101-200,6.654400427,Yes,5,level5,class,genus,1,1,none,project3943
+matrix547,41,107,1541,0.3512651,0.983579845,more than 501,4.765730968,Yes,7,level3,phylum,species,0,0,none,project3951
+matrix548,79,284,9874,0.44009627,4.528754323,51-100,5.778340558,NA,NA,NA,class,species,NA,NA,NA,project3958
+matrix549,79,419,17490,0.52838283,5.590115071,more than 501,6.202514925,No,4,level1,phylum,species,0,0,none,project3964
+matrix550,68,339,9206,0.39935797,2.067935426,201-300,5.859377915,No,3,level3,class,species,0,2,single,project3970
+matrix551,58,164,1823,0.19165265,5.38681919,51-100,5.047299098,No,3,level4,order,genus,0,0,none,project3978
+matrix552,25,181,707,0.15624309,1.336391093,401-500,4.32385619,Yes,4,level1,class,order,0,0,multiple ,project3989
+matrix553,8,24,0,0,0,more than 501,0,No,7,level4,phylum,genus,0,0,none,project4000
+matrix554,28,112,82,0.02614796,6.897513308,Nov-50,0.589626181,Yes,6,level5,family,genus,0,0,none,project4010
+matrix555,40,112,1266,0.28258929,3.20670062,Nov-50,1.731773601,Yes,6,level5,family,genus,0,0,none,project4010
+matrix556,28,112,100,0.03188776,6.727710843,Nov-50,0.589626181,Yes,6,level5,family,genus,0,0,none,project4010
+matrix557,37,218,5177,0.6418299,2.138243596,101-200,4.95243242,No,7,level4,suborder,genus,1,1,multiple ,project4034
+matrix558,60,721,9573,0.22128988,12.28857773,51-100,5.560975804,No,4,level4,class,species,1,0,none,project4049
+matrix559,16,568,3450,0.37962148,0,101-200,4,No,10,level3,class,species,0,0,none,project4056
+matrix560,12,26,44,0.14102564,0,301-400,1.729573959,No,5,level3,class,family,1,0,none,project4074
+matrix561,52,101,537,0.10224676,4.575549824,401-500,3.874753238,Yes,6,level3,Subdivision,genus,1,1,multiple ,project4077
+matrix562,80,192,2704,0.17604167,8.814516422,more than 501,5.205875438,Yes,3,level1,kingdom,genus,1,2,multiple ,project4078
+matrix563,164,716,68986,0.58749489,12.56970409,201-300,7.109046593,No,4,level2,class,species,0,0,multiple ,project4085
+matrix564,27,71,192,0.10015649,5.08661664,51-100,2.846525005,No,4,level4,order,species,0,2,multiple ,project4087
+matrix565,7,25,45,0.25714286,0,101-200,2.235926351,No,5,level4,class,species,1,1,none,project4091
+matrix566,21,26,71,0.13003663,1.480694109,101-200,2.658680663,No,7,level3,class,species,1,2,none,project4095
+matrix567,65,92,3347,0.559699,17.53990588,201-300,5.225838005,Yes,4,level5,order,species,1,2,multiple ,project4104
+matrix568,74,102,203,0.02689454,11.5542479,51-100,2.694292424,No,7,level1,family,genus,1,0,none,project4111
+matrix569,30,100,578,0.19266667,4.6487863,301-400,3.939572262,Yes,7,level2,class,species,1,2,none,project4112
+matrix570,32,69,976,0.44202899,1.632476611,301-400,3.789717001,No,4,level3,order,genus,1,0,none,project4119
+matrix571,39,187,2642,0.36226519,3.006208253,101-200,5.060917924,Yes,5,level5,class,genus,1,2,multiple ,project4123
+matrix572,59,156,4774,0.51868753,6.685746365,101-200,5.327475465,NA,NA,NA,class,genus,NA,NA,NA,project4125
+matrix573,30,106,1016,0.31949686,1.546111908,101-200,4.573557262,Yes,2,level5,order,genus,0,2,multiple ,project4126
+matrix574,131,349,14375,0.3144207,7.953719957,201-300,6.155608357,Yes,5,level3,class,genus,0,2,multiple ,project4133
+matrix575,29,78,467,0.20645447,0,201-300,4.159199529,Yes,4,level4,infraorder,genus,1,1,none,project4135
+matrix576,131,45,1304,0.22120441,41.24270349,301-400,4.237635741,Yes,3,level5,class,species,1,2,multiple ,project4138
+matrix577,57,129,1258,0.17108663,1.660897939,more than 501,4.638892533,Yes,6,level3,kingdom,species,0,2,single ,project4146
+matrix578,56,129,1193,0.16514396,0.911614314,more than 501,4.556321772,Yes,6,level3,kingdom,species,0,2,single ,project4146
+matrix579,59,130,1388,0.1809648,1.911067247,more than 501,4.661323449,Yes,6,level3,kingdom,species,0,2,single ,project4146
+matrix580,59,130,1409,0.18370274,1.312259523,more than 501,4.661323449,Yes,6,level3,kingdom,species,0,2,single ,project4146
+matrix581,56,131,1188,0.16194111,4.847673679,more than 501,4.556321772,Yes,6,level3,kingdom,species,0,2,single ,project4146
+matrix582,56,130,1181,0.16222527,1.379828397,more than 501,4.592036058,Yes,6,level3,kingdom,species,0,2,single ,project4146
+matrix583,56,130,1193,0.16387363,2.041715235,more than 501,4.556321772,Yes,6,level3,kingdom,species,0,2,single ,project4146
+matrix584,56,129,1193,0.16514396,1.363598432,more than 501,4.556321772,Yes,6,level3,kingdom,species,0,2,single ,project4146
+matrix585,71,153,4013,0.36941913,5.069028197,51-100,5.610808211,NA,NA,NA,order,genus,NA,NA,NA,project4147
+matrix586,40,178,1239,0.17401685,0,more than 501,4.803055907,NA,NA,NA,phylum,species,NA,NA,NA,project4149
+matrix587,33,72,1081,0.45496633,0,101-200,4.620151695,NA,NA,NA,order,species,NA,NA,NA,project4163
+matrix588,63,355,5317,0.23773754,1.27838204,301-400,5.508870796,Yes,11,level5,class,genus,1,2,multiple ,project4166
+matrix589,43,46,237,0.119818,13.48425138,Nov-50,3.15304136,NA,NA,NA,order,species,NA,NA,NA,project4168
+matrix590,34,88,1397,0.46691176,12.37866481,101-200,4.594672032,NA,NA,NA,order,species,NA,NA,NA,project4169
+matrix591,13,39,157,0.30966469,1.051456439,101-200,3.085055103,NA,NA,NA,class,genus,NA,NA,NA,project4171
+matrix592,81,155,32,0.00254879,4.465294913,201-300,0.903382779,No,5,level4,order,genus,1,2,none,project4173
+matrix593,13,30,27,0.06923077,0,201-300,1.700439718,No,8,level4,order,species,1,1,none,project4174
+matrix594,148,22,671,0.20608108,32.1141765,401-500,3.29373002,No,5,level2,order,species,1,2,none,project4176
+matrix595,54,219,2128,0.1799425,1.315417981,more than 501,5.282484261,No,5,level3,phylum,family,0,2,none,project4181
+matrix596,22,29,60,0.09404389,0.702539922,301-400,2.153565439,No,4,level3,class,species,1,1,none,project4182
+matrix597,106,435,28471,0.61745825,10.17269002,101-200,6.324572459,NA,NA,NA,suborder,species,NA,NA,NA,project4184
+matrix598,41,88,1833,0.50803769,0.829234463,301-400,4.210733712,No,4,level3,order,genus,1,2,none,project4185
+matrix599,48,33,114,0.0719697,22.18647206,101-200,2.871742558,Yes,6,level5,class,genus,1,2,single,project4186
+matrix600,10,7,7,0.1,0,51-100,1.570950594,Yes,5,level3,family,genus,0,1,multiple ,project4187
+matrix601,50,89,121,0.02719101,6.682181734,101-200,2.044138786,Yes,5,level5,order,species,0,2,multiple ,project4190
+matrix602,42,104,711,0.16277473,1.148045107,401-500,4.350068911,Yes,3,level3,class,family,1,2,none,project4192
+matrix603,42,104,711,0.16277473,1.322197392,401-500,4.350068911,Yes,3,level3,class,family,1,2,none,project4192
+matrix604,163,37,229,0.03797049,43.92121555,301-400,2.184186557,No,4,level4,class,genus,0,0,none,project4204
+matrix605,43,235,6709,0.66392875,8.654198964,101-200,4.926037429,Yes,5,level5,suborder,genus,1,2,single,project4210
+matrix606,47,48,81,0.03590426,2.595463447,101-200,1.496262361,Yes,7,level3,order,species,1,2,multiple ,project4220
+matrix607,125,302,11246,0.29790728,11.81169315,51-100,6.295588785,Yes,7,level2,suborder,species,0,2,multiple ,project4230
+matrix608,13,93,199,0.16459884,0,301-400,3.180832987,NA,NA,NA,class,family,NA,NA,NA,project4235
+matrix609,24,106,719,0.28262579,0,201-300,4.220175521,No,5,level4,suborder,species,1,2,none,project4255
+matrix610,4,35,23,0.16428571,0,101-200,0.811278124,No,3,level4,suborder,species,1,2,none,project4263
+matrix611,104,394,25761,0.62868508,4.826398427,101-200,6.416691882,No,6,level4,suborder,genus,0,0,single,project4264
+matrix612,13,82,164,0.15384615,0,Nov-50,3.026986833,Yes,6,level5,family,species,0,2,multiple ,project4265
+matrix613,78,214,5297,0.31733765,15.87529234,101-200,5.810792603,NA,NA,NA,class,genus,NA,NA,NA,project4278
+matrix614,61,146,3913,0.43936672,1.64932173,101-200,5.467382215,No,3,level3,suborder,species,0,0,multiple ,project4281
+matrix615,81,155,32,0.00254879,4.214309141,NA,0.903382779,No,5,level4,family,genus,1,2,none,project4285
+matrix616,63,135,1591,0.18706643,3.829958196,more than 501,4.833504425,No,3,level3,kingdom,species,0,0,none,project4286
+matrix617,14,37,81,0.15637066,0,Nov-50,2.148834854,No,4,level3,family,species,0,2,multiple ,project4288
+matrix618,63,246,6587,0.42502258,13.37217183,101-200,5.218955519,Yes,5,level5,class,species,1,2,none,project4291
+matrix619,66,246,7416,0.45676275,22.43102168,101-200,5.381145066,Yes,5,level5,class,species,1,2,none,project4291
+matrix620,78,246,10093,0.52600584,30.17061566,101-200,5.349585316,Yes,5,level5,class,species,1,2,none,project4291
+matrix621,15,34,102,0.2,0.944822177,301-400,3.240223929,Yes,2,level5,class,species,0,0,none,project4299
+matrix622,16,34,129,0.23713235,0.899656572,301-400,2.905639062,Yes,2,level5,class,species,0,0,none,project4299
+matrix623,18,33,142,0.23905724,0,301-400,2.996624142,Yes,4,level5,class,species,0,0,none,project4299
+matrix624,24,33,233,0.29419192,1.729180822,301-400,3.736440502,Yes,2,level5,class,species,0,0,none,project4299
+matrix625,158,717,66237,0.58468831,14.43031105,more than 501,7.00308597,NA,NA,NA,phylum,species,NA,NA,NA,project4300
+matrix626,67,380,12858,0.50502749,7.335546515,201-300,5.946686205,No,5,level4,order,genus,1,2,none,project4301
+matrix627,29,91,561,0.21258052,0,51-100,4.185230133,NA,NA,NA,family,species,NA,NA,NA,project4304
+matrix628,36,65,246,0.10512821,4.297799951,401-500,2.308992963,No,4,level4,class,genus,1,1,none,project4305
+matrix629,73,244,7460,0.41881877,3.174504938,51-100,5.436132093,No,4,level4,class,species,1,0,none,project4306
+matrix630,71,246,7311,0.41858468,2.363254522,51-100,5.526301169,No,3,level4,class,species,0,0,none,project4307
+matrix631,72,246,7505,0.42372403,2.60034345,51-100,5.555138022,No,3,level4,class,species,0,0,none,project4307
+matrix632,27,68,399,0.21732026,0,201-300,2.706629394,No,4,level4,order,species,1,2,single,project4308
+matrix633,16,68,123,0.11305147,0,51-100,3.375,Yes,5,level2,class,species,1,1,multiple ,project4309
+matrix634,4,35,23,0.16428571,0,101-200,0.811278124,No,2,level4,suborder,species,1,2,none,project4311
+matrix635,41,125,1419,0.27687805,0.424850782,101-200,4.714514737,No,5,level4,order,genus,1,2,single,project4313
+matrix636,55,74,1101,0.27051597,2.591023427,101-200,3.850079754,No,3,level4,order,species,1,2,none,project4315
+matrix637,42,100,1532,0.3647619,1.598690306,101-200,4.925421221,No,6,level4,class,species,1,2,multiple ,project4316
+matrix638,98,284,14438,0.51875539,16.5894048,51-100,6.032877701,Yes,6,level4,class,species,0,0,single,project4317
+matrix639,15,27,83,0.20493827,1.91726394,201-300,2.549255397,No,3,level4,class,species,1,2,multiple ,project4318
+matrix640,65,52,128,0.03786982,13.94530346,301-400,1.922164608,Yes,4,level5,class,species,1,0,single,project4319
+matrix641,25,57,108,0.07578947,2.6570416,51-100,2.421901189,Yes,5,level5,family,species,1,1,multiple ,project4326
+matrix642,197,823,95410,0.58847475,11.16968626,201-300,7.336444396,No,3,level3,family,species,0,2,single,project4327
+matrix643,47,359,7012,0.41557518,2.968282965,more than 501,5.384376086,NA,NA,NA,phylum,species,NA,NA,NA,project4332
+matrix644,58,223,5043,0.38990258,2.502713613,101-200,5.47867065,NA,NA,NA,class,species,NA,NA,NA,project4333
+matrix645,49,359,7220,0.41043716,3.368140925,more than 501,5.451444538,Yes,3,level5,phylum,species,1,2,none,project4335
+matrix646,78,214,5297,0.31733765,12.39301199,101-200,5.810792603,Yes,2,level3,class,genus,1,2,none,project4340
+matrix647,87,142,2556,0.20689655,2.630768466,401-500,5.078724566,Yes,5,level5,class,genus,1,2,none,project4348
+matrix648,18,43,130,0.16795866,0,Nov-50,3.05881389,No,2,level3,family,genus,1,1,multiple ,project4356
+matrix649,104,140,850,0.05837912,22.21080211,201-300,3.346252618,Yes,4,level5,order,species,1,0,single,project4358
+matrix650,21,40,93,0.11071429,0,201-300,3.13686371,No,4,level3,family,species,0,0,multiple ,project4364
+matrix651,25,57,337,0.23649123,0,301-400,4.13366069,No,2,level3,family,species,0,0,none,project4372
+matrix652,17,31,72,0.13662239,0,NA,1.932804578,No,4,level3,family,species,1,2,multiple ,project4376
+matrix653,160,182,188,0.00645604,6.909079775,51-100,0.619729128,Yes,3,level5,family,species,1,2,multiple ,project4377
+matrix654,27,109,481,0.16343867,0,51-100,3.986187965,No,4,level3,class,order,0,0,none,project4390
+matrix655,55,265,7521,0.51602058,9.762485637,101-200,5.303820395,No,4,level3,class,family,0,2,none,project4392
+matrix656,19,48,208,0.22807018,0.899526581,101-200,3.721611724,No,4,level4,class,species,0,2,none,project4396
+matrix657,75,223,5392,0.32239163,14.18705649,101-200,5.825289857,No,1,level4,class,species,1,2,multiple ,project4397
+matrix658,99,419,18624,0.44897664,1.243345833,more than 501,6.366730357,Yes,4,level4,phylum,genus,1,2,none,project4400
+matrix659,74,215,5391,0.33884349,16.11248377,101-200,5.682162149,No,2,level3,class,genus,0,2,none,project4405
+matrix660,42,115,470,0.09730849,1.795436518,more than 501,2.638775982,No,5,level4,kingdom,phylum,0,1,none,project4406
+matrix661,36,91,899,0.27442002,0,more than 501,4.329239932,No,4,level4,kingdom,order,1,2,multiple ,project4409
+matrix662,121,443,30668,0.57213216,8.738768909,201-300,6.55927832,No,5,level4,order,genus,0,2,none,project4411
+matrix663,28,87,743,0.30500821,0.579644852,301-400,4.521640636,Yes,5,level5,class,genus,1,1,none,project4415
+matrix664,7,9,7,0.11111111,1.836393282,401-500,1.664497779,No,3,level3,phylum,genus,0,0,none,project4416
+matrix665,68,61,187,0.04508197,1.748884245,51-100,2.915957957,No,2,level3,family,species,0,2,none,project4420
+matrix666,34,86,668,0.22845417,0.645201341,201-300,3.490972402,Yes,4,level3,class,genus,1,2,none,project4421
+matrix667,67,93,1140,0.18295619,4.19840596,more than 501,4.452460326,No,3,level4,phylum,genus,0,1,single,project4422
+matrix668,121,176,914,0.04291886,15.44436726,301-400,2.800238273,Yes,3,level5,class,species,1,2,multiple ,project4430
+matrix669,40,123,1277,0.25955285,0,101-200,4.615311532,No,4,level4,order,species,1,2,none,project4431
+matrix670,110,130,1603,0.1120979,6.94272418,401-500,4.450455217,Yes,5,level5,order,species,1,1,multiple ,project4434
+matrix671,104,268,12539,0.44987801,2.665906048,101-200,6.339768805,Yes,4,level5,suborder,species,0,2,multiple ,project4445
+matrix672,105,268,12575,0.44687278,3.226252861,101-200,6.390435994,No,2,level3,order,species,0,0,multiple ,project4449
+matrix673,25,81,507,0.25037037,3.113038034,201-300,4.21366069,No,1,level3,class,genus,0,2,none,project4458
+matrix674,61,167,4495,0.44124865,10.48365134,51-100,5.59049328,Yes,5,level3,order,species,1,2,multiple ,project4460
+matrix675,44,95,1634,0.39090909,5.761866145,201-300,4.77159838,No,4,level4,class,species,0,2,none,project4461
+matrix676,47,48,81,0.03590426,2.595463447,101-200,1.496262361,No,7,level3,order,species,1,2,multiple ,project4467
+matrix677,110,287,14698,0.46556858,21.50187731,101-200,6.422179941,Yes,5,level5,order,species,1,2,none,project4469
+matrix678,37,87,563,0.17489904,6.359127503,101-200,4.033513501,NA,NA,NA,order,species,NA,NA,NA,project4473
+matrix679,23,75,466,0.27014493,0,Nov-50,3.757925414,NA,NA,NA,order,species,NA,NA,NA,project4484
+matrix680,22,61,365,0.27198212,0,51-100,3.754441846,No,2,level3,order,genus,0,2,single,project4495
+matrix681,28,83,775,0.33347676,0.727235553,201-300,4.29790269,Yes,4,level3,class,species,0,0,single,project4496
+matrix682,66,96,738,0.11647727,15.44648347,more than 501,4.248886643,Yes,5,level3,kingdom,species,0,0,multiple ,project4499
+matrix683,24,42,40,0.03968254,1.201985101,more than 501,1.055353219,Yes,2,level2,phylum,genus,1,2,none,project4501
+matrix684,99,285,9948,0.35257842,12.13432064,Nov-50,6.101430736,Yes,3,level5,suborder,species,1,2,none,project4517
+matrix685,71,256,7684,0.42275528,6.033678378,201-300,5.547565605,Yes,4,level5,order,species,1,2,multiple ,project4531
+matrix686,33,74,517,0.21171171,0,more than 501,3.880564666,Yes,6,level5,kingdom,phylum,0,2,multiple ,project4532
+matrix687,33,72,511,0.21506734,0.507476834,more than 501,3.880564666,Yes,6,level5,kingdom,phylum,0,2,multiple ,project4532
+matrix688,32,74,469,0.19805743,0.520329313,more than 501,3.799800876,Yes,6,level5,kingdom,phylum,0,2,multiple ,project4532
+matrix689,33,138,925,0.20311814,0,more than 501,4.003044787,Yes,6,level5,kingdom,phylum,0,2,multiple ,project4532
+matrix690,33,74,521,0.21334971,0.507476834,more than 501,3.945464952,Yes,6,level5,kingdom,phylum,0,2,multiple ,project4532
+matrix691,33,138,925,0.20311814,1.014953667,more than 501,4.003044787,Yes,6,level5,kingdom,phylum,0,2,multiple ,project4532
+matrix692,50,95,580,0.12210526,8.715352124,401-500,4.22597913,Yes,4,level3,class,species,1,1,none,project4533
+matrix693,20,27,171,0.31666667,0,401-500,3.58418372,NA,NA,NA,family,species,NA,NA,NA,project4542
+matrix694,26,31,173,0.2146402,2.431831851,201-300,3.455650181,Yes,2,level5,class,genus,2,1,multiple ,project4545
+matrix695,230,889,124286,0.60784467,18.33556934,201-300,7.557382823,Yes,4,level5,class,species,1,2,multiple ,project4550
+matrix696,72,244,6748,0.38410747,4.578008175,51-100,5.770551564,Yes,4,level5,order,species,1,2,single,project4553
+matrix697,109,676,36573,0.49634928,3.512785017,201-300,6.563921366,No,2,level3,class,species,0,1,none,project4580
+matrix698,72,323,11984,0.51530788,8.274712125,more than 501,5.892147224,Yes,5,level3,phylum,genus,0,0,multiple ,project4581
+matrix699,74,103,149,0.01954867,7.529563684,101-200,0.754703576,No,7,level3,family,species,1,2,none,project4598
+matrix700,112,287,14972,0.46577899,20.75007791,101-200,6.472446217,No,4,level4,order,species,0,0,none,project4614
+matrix701,19,37,161,0.22901849,0,101-200,3.176110252,No,4,level4,class,genus,1,1,none,project4620
+matrix702,11,16,7,0.03977273,2.551357415,101-200,1.095795255,No,3,level4,class,genus,1,1,single,project4622
+matrix703,76,510,15683,0.40461816,6.17656633,51-100,5.974836888,Yes,6,level1,order,genus,0,0,none,project4624
+matrix704,41,92,1322,0.3504772,9.186260671,Nov-50,4.69853859,No,3,level4,family,genus,1,2,single,project4634
+matrix705,82,127,2021,0.19406568,10.28860467,201-300,2.987315236,No,4,level4,order,genus,0,2,none,project4649
+matrix706,101,230,13543,0.58299613,0.597905386,101-200,6.259551458,No,7,level4,suborder,species,0,2,none,project4661
+matrix707,62,83,1239,0.24076953,4.470672116,101-200,4.891707553,Yes,2,level5,class,genus,0,2,single,project4671
+matrix708,22,27,142,0.23905724,1.046077287,101-200,3.118078209,No,4,level4,class,genus,0,2,none,project4672
+matrix709,48,105,1927,0.38234127,0.709112325,101-200,4.938721876,Yes,4,level5,order,species,1,2,none,project4675
+matrix710,80,180,6850,0.47569444,3.327365809,101-200,5.728055907,Yes,3,level5,order,species,0,2,none,project4680
+matrix711,27,110,744,0.25050505,1.298946291,201-300,4.458591206,Yes,4,level5,order,species,0,2,none,project4712
