@@ -1,0 +1,1 @@
+iqtree.exe -s project3621.NEX -st MORPH -m MK+ASC -nt AUTO
