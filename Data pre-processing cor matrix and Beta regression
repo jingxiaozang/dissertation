@@ -281,7 +281,7 @@ model_test3 <- betareg(min.dist_normalised ~ ., data = df1_test3,link = "probit"
 df1_test4 <- df1[, !names(df1) %in% c("Inter_missing", "Inter_taxa_chars")]
 model_test4 <- betareg(min.dist_normalised ~ ., data = df1_test4,link = "probit")
 
-# 获取AIC和BIC
+# get AIC and BIC
 aic_values <- c(
   original = AIC(model_original),
   test1 = AIC(model_test1),
@@ -296,7 +296,7 @@ bic_values <- c(
   test4 = BIC(model_test4)
 )
 
-# 打印AIC和BIC
+# print AIC and BIC
 print("AIC values:")
 print(aic_values)
 
@@ -324,7 +324,7 @@ stargazer(model_full, type="html",
 getwd()
 
 
-#############Test 
+#############Test######################################## 
 par(mfrow=c(2,2))
 #Residuals vs indices of obs.:
 plot(residuals(model_full), main="Residuals vs Indices of Observations", 
