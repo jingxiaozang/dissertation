@@ -1,0 +1,91 @@
+# following :  https://github.com/jingxiaozang/dissertation/blob/main/Data%20pre-processing%20cor%20matrix%20and%20Beta%20regression
+
+#random forest
+#install.packages("randomForest")
+#install.packages("caTools")
+#install.packages("pdp")
+#install.packages("lime")
+
+library(ggplot2)
+library(viridis)
+library(caTools)
+library(randomForest)
+
+# remove min.dist
+names(new_data_final_2)
+random <- new_data_final_2 %>%
+  select(-min.dist) 
+
+# Split train_dataset and test_dataset
+set.seed(1234)
+split <- sample.split(random$min.dist_normalised, SplitRatio = 0.8)
+train_data <- subset(random, split == TRUE)
+test_data <- subset(random, split == FALSE)
+
+# random forest regression on train_data
+rf_model <- randomForest(min.dist_normalised ~ ., data = train_data, ntree = 500, importance = TRUE)
+print(rf_model)
+
+# importance 
+importance_df <- as.data.frame(importance(rf_model))
+print(importance_df)
+
+# test on test_data
+test_predictions <- predict(rf_model, newdata = test_data)
+
+# calculate MSE
+mse <- mean((test_predictions - test_data$min.dist_normalised)^2)
+print(paste("Test MSE:", mse))
+
+predictions <- predict(rf_model, newdata = test_data)
+mse <- mean((predictions - test_data$min.dist_normalised)^2)
+print(mse)
+
+# plot
+varImpPlot(rf_model, main = "Variable Importance", col = 'red')
+
+# important plot
+importance <- rf_model$importance
+df_importance <- data.frame(Feature = rownames(importance), Importance = importance[, 1])
+
+df_importance$Feature <- reorder(df_importance$Feature, df_importance$Importance)
+
+# change the color
+colors <- brewer.pal(9, "Blues")[5:9]
+ggplot(df_importance, aes(x = Feature, y = Importance, fill = Importance)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  labs(title = "Factor Importance from Random Forest", x = "Features", y = "Importance") +
+  theme_minimal() +
+  scale_fill_gradientn(colors = colors)
+
+
+
+print(df_importance)
+
+
+
+#######################Result verification
+
+# Result verification on test_data
+test_predictions <- predict(rf_model, test_data)
+
+# calculate MSE and RMSE on test_data
+mse <- mean((test_predictions - test_data$min.dist_normalised)^2)
+rmse <- sqrt(mse)
+print(paste("Test MSE:", mse))
+print(paste("Test RMSE:", rmse))
+
+# caluculate residuals
+residuals <- test_data$min.dist_normalised - test_predictions
+
+
+# Residual plot
+plot(test_predictions, residuals, xlab="Predictions", ylab="Residuals", main="Residual Plot", col="#285B8C")
+abline(h=0, col="#614C97", lty=2)
+
+# Actual vs. Predicted
+plot(test_data$min.dist_normalised, predictions, main="Actual vs. Predicted", xlab="Actual values", ylab="Predicted values", col="#285B8C")
+abline(a=0, b=1, col="#614C97")  # Adds y=x line
+
+
