@@ -1,0 +1,365 @@
+library(dplyr)
+library(stargazer)
+library(viridis)
+library(cowplot)
+library(gridExtra)
+library(ggplot2)
+library(ggpubr)
+library(car)
+library(RColorBrewer)
+library(tidyverse)
+
+#Data pre-processing
+data <- read.csv("C:/Users/jingxiaozang/Desktop/draft/final/dataset.csv")
+head(data)
+
+# colors:
+colors <- c("#A8D3EE", "#AFE1DA", "#AFD9EC", "#5684C3", "#60B568", "#E8BF7D", "#285B8C", "#614C97")
+
+#Remove "notes" and "matrix-number" column
+new_data <- data %>%
+  select(- num_matrix,-notes)
+summary(new_data)
+
+# Short factors names
+short_names <- c(
+  "taxa_number", "chars_number", "missing_data", "missing_perc",
+  "min.dist", "divergence_time", "NAs_distribution", "codings", 
+  "methods", "desc_details", "taxa_breadth", "taxa_level", 
+  "hum_readable", "machine_readable","results_reliability"
+)
+
+# New dataset
+names(new_data) <- short_names
+summary(new_data)
+
+
+# Data Exploration
+# Check missing values:
+NAs_count <- apply(new_data, 2, function(x) sum(is.na(x)))
+print(NAs_count)
+#Plot NAs
+missing_data <- new_data %>%
+  summarise_all(function(col) sum(is.na(col))) %>%
+  tidyr::gather(column, missing_count)
+
+ggplot(missing_data, aes(x = reorder(column, -missing_count), y = missing_count)) +
+  geom_bar(stat = "identity", fill = colors[1]) + 
+  geom_text(aes(label = missing_count),  
+            hjust = -0.1, vjust = 0.5, size = 4, position = position_dodge(0.9), color = "black") + 
+  coord_flip() +
+  labs(title = "Missing values for Each Factor",
+       x = "Factors",
+       y = "Number of Missing Values") +
+  theme(plot.title = element_text(hjust = 0.5, color = "black"))  
+
+# Clean NAs 
+new_data$desc_details[new_data$desc_details == " NA"] <- NA
+new_data2 <- na.omit(new_data)
+
+# Swap divergence_time to numeric forms
+interval_map <- list(
+  "less than 10" = 1,
+  "11-50" = 2,
+  "Nov-50"= 2,
+  "51-100" = 3,
+  "101-200" = 4,
+  "201-300" = 5,
+  "301-400" = 6,
+  "401-500" = 7,
+  "more than 501" = 8
+)
+new_data2$divergence_time <- sapply(new_data2$divergence_time, function(interval) {
+  return(interval_map[[interval]])
+})
+
+# Swap Codings to numeric forms
+new_data2$codeJustify <- ifelse(new_data2$codings == "Yes", 1, 0)
+
+# Swap Description detail level to numeric
+desc_details <- list("level1" = 1, "level2" = 2, "level3" = 3, "level4" = 4, "level5" = 5)
+# Remove Spaces
+new_data2$desc_details <- trimws(new_data2$desc_details)
+new_data2$desc_details <- sapply(new_data2$desc_details, function(detail) {
+  return(desc_details[[detail]])
+})
+
+# Mapping for taxonomic breadth and taxonomic level
+taxa_mapping <- list(
+  "kingdom" = 1, 
+  "subkingdom"= 2,
+  "phylum" = 3,
+  'division'=3,
+  "subphylum" = 4, 
+  "class" = 5, 
+  "subclass" = 6, 
+  'Subdivision'=6,
+  "superorder" = 7, 
+  "order" = 8, 
+  "suborder" = 9, 
+  "infraorder" = 10, 
+  "Infraorder" = 10,
+  "family" = 11, 
+  "subfamily" = 12,
+  "genus" = 13, 
+  "species" = 14
+)
+
+new_data2$taxa_breadth <- trimws(new_data2$taxa_breadth)
+new_data2$taxa_breadth.num <- sapply(new_data2$taxa_breadth, function(breadth) {
+  return(taxa_mapping[[breadth]])
+})
+new_data2$taxa_level <- trimws(new_data2$taxa_level)
+new_data2$taxa_level.num <- sapply(new_data2$taxa_level, function(level) {
+  return(taxa_mapping[[level]])
+})
+# mapping for result reliability:
+new_data2$results_reliability <- trimws(new_data2$results_reliability)
+results_reliability_mapping <- list("none" = 0, "single" = 1, "single " = 1, "multiple" = 2, "multiple " = 2)
+new_data2$results_reliability_num <- sapply(new_data2$results_reliability, function(reliability) {
+  return(results_reliability_mapping[[reliability]])
+})
+
+# Check data types
+data_types <- sapply(new_data2, class)
+print(data_types)
+
+#remove replaced column
+new_data_final <- new_data2 %>%
+  select(- codings,- taxa_breadth,- taxa_level,- results_reliability)
+
+
+#Swap NAS_distribution to numbic
+new_data_final$NAs_distribution <- as.numeric(new_data_final$NAs_distribution)
+unique(new_data_final$NAs_distribution[is.na(as.numeric(new_data_final$NAs_distribution))])
+
+
+#Plot
+data_long <- new_data_final %>% 
+  pivot_longer(cols = everything(), names_to = "variable", values_to = "value")
+
+ggplot(data_long, aes(x = variable, y = value)) + 
+  geom_boxplot(fill = "#E8BF7D", outlier.color = "#5684C3", outlier.shape = 1) +
+  scale_y_continuous(breaks = c(1000, 2000, 4000), limits = c(0, 4000)) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        plot.title = element_text(hjust = 0.5)) +
+  labs(title = "Boxplot for Each Variable")
+
+# Identify outliers
+outliers <- function(column) {
+  Q1 <- quantile(column, 0.25, na.rm = TRUE)
+  Q3 <- quantile(column, 0.75, na.rm = TRUE)
+  IQR <- Q3 - Q1
+  lower_bound <- Q1 - 3 * IQR
+  upper_bound <- Q3 + 3 * IQR
+  
+  return(list(lower = lower_bound, upper = upper_bound))
+}
+
+count_extreme_outliers <- function(column) {
+  bounds <- outliers(column)
+  sum(column < bounds$lower | column > bounds$upper, na.rm = TRUE)
+}
+
+outliers_counts <- sapply(new_data_final, count_extreme_outliers)
+print(outliers_counts)  
+
+#Plot outliers
+df_outliers <- data.frame(variable = names(outliers_counts), count = outliers_counts)
+
+ggplot(df_outliers, aes(x = variable, y = count)) +
+  geom_bar(stat = "identity", fill = "#5684C3") +
+  geom_text(aes(label = count), vjust = -0.6, size = 4) + 
+  theme_minimal() +
+  labs(title = "Extreme outliers Count for Each Variable", x = "Variable", y = "Number of Outliers") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# Except for taxa_level.num, delete elses
+variables <- setdiff(names(outliers_counts), "taxa_level.num")
+
+for(var in variables) {
+  if (outliers_counts[var] > 0) {
+    bounds <- outliers(new_data_final[[var]])
+    new_data_final <- new_data_final %>% filter(
+      (get(var) >= bounds$lower & get(var) <= bounds$upper) | is.na(get(var))
+    )
+  }
+}
+
+# Check Outliers left
+new_outliers_counts <- sapply(new_data_final, count_extreme_outliers)  
+print(new_outliers_counts)
+
+# The distribution of each variable
+plot_distribution <- ggplot(data_long, aes(x=value)) + 
+  geom_bar(fill="#5684C3", color="black", alpha=0.7) + 
+  facet_wrap(~variable, scales = "free") +  
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(title = "Bar Charts for Each Variable", x = "Value", y = "Count")
+print(plot_distribution)
+
+# Adding Interactions Factors 
+new_data_final_2 <- new_data_final %>%
+  mutate(Inter_missing = missing_data * missing_perc,
+         Inter_taxa_chars = chars_number + taxa_number + (chars_number * taxa_number))
+summary(new_data_final_2)
+
+
+# cor matrix
+
+cor_matrix <- cor(new_data_final_2, use = "complete.obs")
+cor_df <- as.data.frame(as.table(cor_matrix))
+cor_df$Correlation <- as.numeric(cor_df$Freq)
+
+color_scheme <- scale_fill_gradient2(low = brewer.pal(8, "Blues")[1], 
+                                     high = brewer.pal(8, "Blues")[8], 
+                                     midpoint = 0, 
+                                     mid = "white", 
+                                     name = "Correlation")
+
+ggplot(cor_df, aes(Var1, Var2, fill = Correlation, label = sprintf("%.2f", Correlation))) +
+  geom_tile(color = "white") +    
+  color_scheme +
+  geom_text(aes(color = abs(Correlation) > 0.5), size = 4, check_overlap = TRUE) + 
+  scale_color_manual(values = c("TRUE" = "white", "FALSE" = "black")) +  
+  theme_minimal(base_size = 14) +  
+  theme(
+    axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1),
+    axis.title = element_blank(),  
+    panel.grid.major = element_blank(), 
+    panel.grid.minor = element_blank()
+  )
+
+print(cor_matrix)
+
+
+# Beta regression: 
+library(betareg)
+# min-max normalised
+minmax_normalise <- function(x){
+  (x - min(x)) / (max(x) - min(x))
+}
+new_data_final_2$min.dist_normalised <- minmax_normalise(new_data_final_2$min.dist)
+
+df1 <- new_data_final_2 %>%
+    select(-min.dist) 
+
+# Data conversion to（0,1)
+df1$min.dist_normalised <- pmax(pmin(df1$min.dist_normalised, 0.9999999999), 0.0000000001)
+summary(df1)
+
+# Test link function: logit; probit
+model_logit <- betareg(min.dist_normalised ~ . - Inter_missing - Inter_taxa_chars, data = df1, link = "logit")
+model_probit <- betareg(min.dist_normalised ~ . - Inter_missing - Inter_taxa_chars, data = df1, link = "probit")
+
+aic_bic <- data.frame(
+  Link = c("Logit", "Probit"),
+  AIC = c(AIC(model_logit), AIC(model_probit)),
+  BIC = c(BIC(model_logit), BIC(model_probit))
+)
+print(aic_bic)
+
+
+# Original model
+model_original <- betareg(min.dist_normalised ~ ., data = df1,link = "probit")
+
+# Test 1: Remove 'missing_data'
+df1_test1 <- df1[, !names(df1) %in% "missing_data"]
+model_test1 <- betareg(min.dist_normalised ~ ., data = df1_test1,link = "probit")
+
+# Test 2: Remove 'Inter_missing'
+df1_test2 <- df1[, !names(df1) %in% "Inter_missing"]
+model_test2 <- betareg(min.dist_normalised ~ ., data = df1_test2,link = "probit")
+
+# Test 3: Remove 'Inter_taxa_chars'
+df1_test3 <- df1[, !names(df1) %in% "Inter_taxa_chars"]
+model_test3 <- betareg(min.dist_normalised ~ ., data = df1_test3,link = "probit")
+
+# Test 4: Remove both 'Inter_missing' and 'Inter_taxa_chars'
+df1_test4 <- df1[, !names(df1) %in% c("Inter_missing", "Inter_taxa_chars")]
+model_test4 <- betareg(min.dist_normalised ~ ., data = df1_test4,link = "probit")
+
+# 获取AIC和BIC
+aic_values <- c(
+  original = AIC(model_original),
+  test1 = AIC(model_test1),
+  test2 = AIC(model_test2),
+  test4 = AIC(model_test4)
+)
+
+bic_values <- c(
+  original = BIC(model_original),
+  test1 = BIC(model_test1),
+  test2 = BIC(model_test2),
+  test4 = BIC(model_test4)
+)
+
+# 打印AIC和BIC
+print("AIC values:")
+print(aic_values)
+
+print("BIC values:")
+print(bic_values)
+
+
+
+
+#Beta regression 
+#model_full <- betareg(min.dist_normalised ~ . - Inter_missing - Inter_taxa_chars, data = df1, link = "probit")
+model_full <- betareg(min.dist_normalised ~ .-missing_data, data = df1, link = "probit")
+summary(model_full)
+
+#Plot
+t_values <- model_full$coefficients$Estimate / model_full$coefficients$`Standard Error`
+colors <- viridis(length(t_values), alpha = 0.8)[order(t_values, decreasing = TRUE)]
+
+stargazer(model_full, type="html", 
+          out="regression_results.html", 
+          column.labels = colors,
+          title="Regression Results", 
+          single.row=TRUE)
+
+getwd()
+
+
+#############Test 
+par(mfrow=c(2,2))
+#Residuals vs indices of obs.:
+plot(residuals(model_full), main="Residuals vs Indices of Observations", 
+     xlab="Index of Observation", ylab="Residual", 
+     pch=19, col="#285B8C", cex=0.6, 
+     cex.main=1.2, cex.axis=1.1, cex.lab=1.1)
+abline(h = 0, col = "#614C97", lwd=2)
+
+# Cook's distance plot:
+
+cooksd <- cooks.distance(model_full)
+threshold <- 4/length(cooksd)
+
+plot(cooksd, main="Cook's Distance", ylab="Cook's Distance", 
+     xlab="Index of Observation", pch=19, cex=1.5, col=ifelse(cooksd > threshold, "#E8BF7D", "#285B8C"))
+abline(h = threshold, col="#614C97", lty=2, lwd=2)
+
+legend("topright", legend=c("Influential", "Not Influential"), fill=c("#E8BF7D", "#285B8C"))
+
+
+# Generalized leverage vs predicted values:
+hatvalues <- hatvalues(model_full)
+threshold <- 2*length(coef(model_full))/length(hatvalues)
+plot(fitted(model_full), hatvalues, main="Generalized Leverage vs Predicted Values", 
+     xlab="Predicted Values", ylab="Leverage", pch=19, cex=1.5, col=ifelse(hatvalues > threshold, "#E8BF7D", "#285B8C"))
+abline(h = threshold, col="#614C97", lty=2, lwd=2)
+legend("topright", legend=c("High Leverage", "Normal Leverage"), fill=c("#E8BF7D", "#285B8C"))
+
+
+
+# Residuals vs Fitted values
+plot(fitted(model_full), residuals(model_full, type = "pearson"), 
+     xlab = "Fitted values", ylab = "Standardized residuals", pch=19, cex=1.5, col="#285B8C",
+     main = "Residuals vs Fitted values")
+abline(h = 0, col = "#614C97", lty=2, lwd=2)
+
+
+
