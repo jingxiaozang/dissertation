@@ -324,9 +324,11 @@ stargazer(model_full, type="html",
 getwd()
 
 
-#############Test######################################## 
+#Result verification
+
 par(mfrow=c(2,2))
-#Residuals vs indices of obs.:
+
+#Residuals vs indices :
 plot(residuals(model_full), main="Residuals vs Indices of Observations", 
      xlab="Index of Observation", ylab="Residual", 
      pch=19, col="#285B8C", cex=0.6, 
