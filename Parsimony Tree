@@ -1,0 +1,34 @@
+piwe=;
+mxram 512;
+
+proc project4446.tnt;
+
+macro=;
+
+
+
+xmult:rat25 drift30 hits 30 level 4 chklevel 5;
+
+
+
+piwe-;
+
+xmult;
+
+tsav *ew.tre; sav; tsav/;
+
+
+keep 0; hold 10000;
+
+
+xpiwe=; piwe=10;
+
+xmult;
+
+tsav *iw10.tre; sav; tsav/;
+
+
+keep 0; hold 10000;
+
+
+macro -;
